@@ -1,0 +1,76 @@
+-- ******** Model variables ***************************************************
+
+group "Model Root"
+	group "Clock" -- block-group
+	{
+	 block: "Clock"
+	}
+		p_0_untitled_real_T_0[0]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+
+
+	endgroup -- block-group "Clock"
+
+	group "Constant" -- block-group
+	{
+	 block: "Constant"
+	}
+		p_0_untitled_real_T_0[1]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+		p_1_untitled_real_T_0[0]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Value"
+		 flags:   PARAM
+		}
+
+
+	endgroup -- block-group "Constant"
+
+	group "Add" -- block-group
+	{
+	 block: "Sum"
+	}
+		p_0_untitled_real_T_0[2]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+
+
+	endgroup -- block-group "Add"
+
+	group "Scope" -- block-group
+	{
+	 block: "Scope"
+	}
+		p_0_untitled_real_T_0[2]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "In1"
+		 flags:   READONLY
+		}
+
+
+
+	endgroup -- block-group "Scope"
+
+  
+  
+	group "RTI Data" -- subsystem-group
+
+
+	endgroup -- subsystem-group "RTI Data"
+
+
+
+endgroup -- "Model Root"

@@ -1,0 +1,43 @@
+LOG-file created by automatic CAN datafile reload
+Date: 19-Mar-2025 19:24:22
+
+The following method was used: "ReloadController"
+
+****************************************************************************************************
+RELOAD:
+Controller number: 1  Board/Module number:1  Board Type: CAN_Type1  GroupId: 1
+
+Data file: c:\users\user\desktop\ycm\rcp\can1_canopen.dbc
+
+Number of RTICAN message blocks which participated in the reload process: 18
+
+Number of RTICAN messages blocks which created at least one open connection: 0
+
+
+Number of RTICAN messages blocks which participated in the reload process but did not
+experience any changes in block in/outport configuration: 18
+block names: 
+"test/Driving Motor RX/N30_TPDO0"
+"test/Driving Motor RX/N30_TPDO2"
+"test/Driving Motor RX/N30_TPDO3"
+"test/N10_RPDO0"
+"test/N10_RPDO1"
+"test/N20_RPDO0"
+"test/N20_RPDO1"
+"test/N30_RPDO0"
+"test/N30_RPDO1"
+"test/NMTZeroMsg"
+"test/Sterring MotorRX/N10_TPDO0"
+"test/Sterring MotorRX/N10_TPDO1"
+"test/Sterring MotorRX/N10_TPDO2"
+"test/Sterring MotorRX/N10_TPDO3"
+"test/Suspension Motor RX/N20_TPDO0"
+"test/Suspension Motor RX/N20_TPDO1"
+"test/Suspension Motor RX/N20_TPDO2"
+"test/Suspension Motor RX/N20_TPDO3"
+
+Number of RTICAN messages blocks which did not participate in the reload process: 0
+
+****************************************************************************************************
+
+%EOF

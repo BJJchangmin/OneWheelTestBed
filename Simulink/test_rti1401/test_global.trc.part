@@ -1,0 +1,287 @@
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+	p_1_test_real_T_0[0]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Ts"
+	 value:   0.01
+	 flags:   PARAM
+	}
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+group "State Machine Data"
+
+
+endgroup
+
+
+-- ******** Labels ************************************************************
+
+group "Labels"
+
+	p_0_test_real_T_0[27]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Controlword{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO0/Controlword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[43]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Controlword{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO0/Controlword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[70]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Controlword{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO0/Controlword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[19]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_actual_value_averaged{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO3/Current_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[35]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_actual_value_averaged{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO3/Current_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[62]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_actual_value_averaged{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO3/Current_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[18]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_demand_value{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO3/Current_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[34]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_demand_value{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO3/Current_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[61]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Current_demand_value{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO3/Current_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[30]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Error_code{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO0/Error_code"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[46]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Error_code{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO0/Error_code"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[73]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Error_code{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO0/Error_code"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[29]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Modes_of_operation_display{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO0/Modes_of_operation_display"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[45]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Modes_of_operation_display{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO0/Modes_of_operation_display"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[72]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Modes_of_operation_display{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO0/Modes_of_operation_display"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[51]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Position_actual_value{Occurence1}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO1/Position_actual_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[78]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Position_actual_value{Occurence2}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO1/Position_actual_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[50]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Position_demand_value{Occurence1}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO1/Position_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[77]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Position_demand_value{Occurence2}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO1/Position_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[28]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Statusword{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO0/Statusword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[44]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Statusword{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO0/Statusword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[71]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Statusword{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO0/Statusword"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[12]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_actual_value_averaged{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO2/Velocity_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[56]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_actual_value_averaged{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO2/Velocity_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[83]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_actual_value_averaged{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO2/Velocity_actual_value_averaged"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[11]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_demand_value{Occurence1}"
+	 origin:  "test/Hardware ActValue/Driving Motor RX/N30_TPDO2/Velocity_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[55]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_demand_value{Occurence2}"
+	 origin:  "test/Hardware ActValue/Sterring MotorRX/N10_TPDO2/Velocity_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[82]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Velocity_demand_value{Occurence3}"
+	 origin:  "test/Hardware ActValue/Suspension Motor RX/N20_TPDO2/Velocity_demand_value"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[185]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Y(k-1){Occurence1}"
+	 origin:  "test/_Reference/_dri_motor_ref/Driving_Torque_Ref/Rate Limiter\nDynamic1/Delay Input2/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[151]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Y(k-1){Occurence2}"
+	 origin:  "test/_Reference/_dri_motor_ref/Driving_Vel_Ref/Rate Limiter\nDynamic1/Delay Input2/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[10313]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Y(k-1){Occurence3}"
+	 origin:  "test/_Reference/_str_motor_ref/Rate Limiter\nDynamic/Delay Input2/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[117]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Y(k-1){Occurence4}"
+	 origin:  "test/_Reference/_sus_motor_ref/Rate Limiter\nDynamic/Delay Input2/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[186]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "( U(k) - Y(k-1) ){Occurence1}"
+	 origin:  "test/_Reference/_dri_motor_ref/Driving_Torque_Ref/Rate Limiter\nDynamic1/Difference Inputs1/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[152]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "( U(k) - Y(k-1) ){Occurence2}"
+	 origin:  "test/_Reference/_dri_motor_ref/Driving_Vel_Ref/Rate Limiter\nDynamic1/Difference Inputs1/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[10314]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "( U(k) - Y(k-1) ){Occurence3}"
+	 origin:  "test/_Reference/_str_motor_ref/Rate Limiter\nDynamic/Difference Inputs1/Out1"
+	 flags:   READONLY
+	}
+	p_0_test_real_T_0[118]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "( U(k) - Y(k-1) ){Occurence4}"
+	 origin:  "test/_Reference/_sus_motor_ref/Rate Limiter\nDynamic/Difference Inputs1/Out1"
+	 flags:   READONLY
+	}
+
+endgroup
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+

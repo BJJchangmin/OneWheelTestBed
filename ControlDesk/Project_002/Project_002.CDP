@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 6.2</creator>
+	<project>
+		<Creator type="key">ControlDesk</Creator>
+		<Name type="key">Project_002.CDP</Name>
+		<DisplayName type="key">Project_002</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">992038020</UniqueID>
+		<EntityID type="key">{223B06BD-6D00-4C99-91D5-2EEA7C5FF32F}</EntityID>
+		<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">Project_002</Name>
+			<DisplayName type="key">Project_002</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">232540100</UniqueID>
+			<EntityID type="key">{2DE7073F-1805-4394-B736-FD3D8BBCA11B}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">548442380</UniqueID>
+				<EntityID type="key">{02518D4D-6E31-437C-A551-6946690A6304}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">163237324</UniqueID>
+				<EntityID type="key">{6075F718-5C3B-4AD8-8984-61EE6E2B811D}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager_global</Targets>
+				<Name type="key">Global Data Sets</Name>
+				<DisplayName type="key">Global Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">1070416444</UniqueID>
+				<EntityID type="key">{9D95403E-5E5F-42DE-B502-5656615E73F3}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">27352990</UniqueID>
+				<EntityID type="key">{87D6F91A-0041-4B7E-81EF-B9EB8DB7556A}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">Project_002.vdb</Name>
+					<DisplayName type="key">C:\Users\USER\Desktop\dSPACE_Test\ControlDesk\Project_002\Variable Descriptions\Project_002.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">397673152</UniqueID>
+					<EntityID type="key">{3C0B897D-CAC1-4043-B3D0-47C09CBD656F}</EntityID>
+					<ItemInfoDate type="key">2025-03-14 오후 5:50:23</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">test.sdf</Name>
+					<DisplayName type="key">test.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\test.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">718504789</UniqueID>
+					<EntityID type="key">{9F819652-DCDB-4DF6-B866-A17D031ECF32}</EntityID>
+					<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoLog type="key">
+Original file added from ..\..\Simulink\test.sdf [2025-03-14 08:46:57 (UTC)]
+</ItemInfoLog>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.trc</Name>
+						<DisplayName type="key">test.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">169219905</UniqueID>
+						<EntityID type="key">{F67D67AD-AEF9-4442-BDD1-54E527512E72}</EntityID>
+						<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.map</Name>
+						<DisplayName type="key">test.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">1042239721</UniqueID>
+						<EntityID type="key">{3784205E-AC33-48E6-9CA7-2DB365871C78}</EntityID>
+						<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.ppc</Name>
+						<DisplayName type="key">test.ppc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">265808563</UniqueID>
+						<EntityID type="key">{785A0A06-479D-4619-9A73-4C350D35E4D7}</EntityID>
+						<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.trz</Name>
+						<DisplayName type="key">test.trz</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">227815079</UniqueID>
+						<EntityID type="key">{5582254E-417A-49DA-9ADA-7DBDD9E47C29}</EntityID>
+						<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">76895591</UniqueID>
+				<EntityID type="key">{87E7C3FA-6056-454A-9E65-96560ED6AD79}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">612633079</UniqueID>
+				<EntityID type="key">{D27A826F-3B2A-454B-A6BD-B0D9B562D9CE}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">507204044</UniqueID>
+				<EntityID type="key">{A0D57B88-AB8E-4E8B-806F-C0711A5877DD}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">724133094</UniqueID>
+				<EntityID type="key">{C14B1871-B5D9-4B3A-A625-14C5B313193C}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">27271095</UniqueID>
+				<EntityID type="key">{7B9ED598-4048-4A07-9D95-877DB3B3AF7E}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">620065828</UniqueID>
+				<EntityID type="key">{A917A11A-FAFE-48C9-A00F-FAF1101E3AD9}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">850710299</UniqueID>
+			<EntityID type="key">{537DEA8C-65E4-4559-8D53-A8FD8012EC83}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:50:23</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">308275669</UniqueID>
+				<EntityID type="key">{0F256282-1054-4CFC-B117-815F8C58F3CE}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:50:23</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<Name type="key">Experiment_001.CDE</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">.\Experiment_001</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">898280762</UniqueID>
+			<EntityID type="key">{2A3A2262-4F09-4E29-BFF9-3DDFD4704CC7}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:50:22</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<UserManager/>
+	<XILAPIEESPort Version="1"/>
+	<SignalEditor/>
+	<Interpreter/>
+	<VariablesManagement Version="95">
+		<CreatorVersion type="key">602000599</CreatorVersion>
+	</VariablesManagement>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Experiment_001</LastActiveExperiment>
+	</ProjectExperiment>
+	<MeasureDataManagement Version="4"/>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">1</Count>
+			<File1 type="key">Experiment_001/Layout1</File1>
+			<Id1 type="key">0</Id1>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement Version="10"/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<LabelListFilter>
+			<LabelListFilterFile type="key"/>
+			<LabelListFilterActive type="key">0</LabelListFilterActive>
+		</LabelListFilter>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>

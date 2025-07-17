@@ -1,0 +1,44 @@
+LOG-file created by automatic CAN datafile reload
+Date: 16-Jul-2025 15:13:43
+
+The following method was used: "ReloadController"
+
+****************************************************************************************************
+RELOAD:
+Controller number: 1  Board/Module number:1  Board Type: CAN_Type1  GroupId: 1
+
+Data file: c:\users\user\desktop\ycm\rcp\ycm_canopen_v1 .dbc
+
+Number of RTICAN message blocks which participated in the reload process: 18
+
+Number of RTICAN messages blocks which created at least one open connection: 2
+block name: "test/Plant/N10_RPDO0"
+     added signals: 'Modes_of_operation' 
+block name: "test/Plant/N10_RPDO1"
+     added signals: 'Target_torque' 
+
+Number of RTICAN messages blocks which participated in the reload process but did not
+experience any changes in block in/outport configuration: 16
+block names: 
+"test/Can Setting/NMTZeroMsg"
+"test/Hardware ActValue/Driving Motor RX/N30_TPDO0"
+"test/Hardware ActValue/Driving Motor RX/N30_TPDO2"
+"test/Hardware ActValue/Driving Motor RX/N30_TPDO3"
+"test/Hardware ActValue/Sterring MotorRX/N10_TPDO0"
+"test/Hardware ActValue/Sterring MotorRX/N10_TPDO1"
+"test/Hardware ActValue/Sterring MotorRX/N10_TPDO2"
+"test/Hardware ActValue/Sterring MotorRX/N10_TPDO3"
+"test/Hardware ActValue/Suspension Motor RX/N20_TPDO0"
+"test/Hardware ActValue/Suspension Motor RX/N20_TPDO1"
+"test/Hardware ActValue/Suspension Motor RX/N20_TPDO2"
+"test/Hardware ActValue/Suspension Motor RX/N20_TPDO3"
+"test/Plant/N20_RPDO0"
+"test/Plant/N20_RPDO1"
+"test/Plant/N30_RPDO0"
+"test/Plant/N30_RPDO1"
+
+Number of RTICAN messages blocks which did not participate in the reload process: 0
+
+****************************************************************************************************
+
+%EOF

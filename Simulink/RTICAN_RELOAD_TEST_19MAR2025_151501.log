@@ -1,0 +1,26 @@
+LOG-file created by automatic CAN datafile reload
+Date: 19-Mar-2025 15:15:01
+
+The following method was used: "ReloadController"
+
+****************************************************************************************************
+RELOAD:
+Controller number: 1  Board/Module number:1  Board Type: CAN_Type1  GroupId: 1
+
+Data file: ALL FILES
+
+Number of RTICAN message blocks which participated in the reload process: 1
+
+Number of RTICAN messages blocks which created at least one open connection: 0
+
+
+Number of RTICAN messages blocks which participated in the reload process but did not
+experience any changes in block in/outport configuration: 1
+block names: 
+"test/N20_RPDO0"
+
+Number of RTICAN messages blocks which did not participate in the reload process: 0
+
+****************************************************************************************************
+
+%EOF

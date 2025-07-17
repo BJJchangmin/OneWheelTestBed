@@ -1,0 +1,343 @@
+-- ****************************************************************************
+--
+--  Trace file: untitled.trc
+--
+--  RTI1401 7.9 (02-Nov-2017)
+--  Mon Mar 17 15:34:04 2025
+--
+--  Copyright 2025, dSPACE GmbH. All rights reserved.
+--
+-- ****************************************************************************
+--
+--  Used options:
+--    TRCGenerateVirtualBlocks      = 0
+--    TRCGenerateLabels             = 0
+--    TRCGenerateStates             = 0
+--    TRCGenerateDerivatives        = 0
+--    TRCGenerateParamValues        = 0
+--    TRCGenerateApplicationKeyword = 0
+--    TRCOnlyGlobals                = 0
+--    TRCIsOmitVdOn                 = 0
+--
+--  Trace file format: 3
+
+-- ******** Keywords **********************************************************
+-- _application "untitled.map"
+
+_genname     "RTI"
+_genversion  "7.9"
+_gendate     "03/17/2025 15:34:06"
+_description ""
+_author      "RTI1401 7.9 (02-Nov-2017)"
+_model       "untitled"
+
+-- Default data type formats
+_floating_point_type(64,IEEE)
+_integer_type(32)
+
+-- No Data Capture blocks within model: use base sample time as sampling period
+sampling_period[0]
+{
+  value:       0.001
+  alias:       "HostService"
+  increment:   0.001
+  unit:        "s"
+}
+
+
+
+
+-- ******** Simulation control variables **************************************
+
+finalTime
+{
+ type:  flt(64,IEEE)*
+ alias: "finalTime"
+ desc:  "Simulation stop time. When reached, simState switches to STOP."
+ flags:  READONLY
+ unit:  "s"
+}
+
+currentTime
+{
+ type:  flt(64,IEEE)*
+ alias: "currentTime"
+ desc:  "Current simulation time. Increments with execution of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+}
+
+modelStepSize
+{
+ type:  flt(64,IEEE)
+ alias: "modelStepSize"
+ desc:  "Fixed step size of the model, sample time of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+}
+
+simState
+{
+ type:  int(32)
+ alias: "simState"
+ desc:  "Simulation state: STOP=0 PAUSE=1 RUN=2"
+ unit:  "-"
+}
+
+msg_last_error_no
+{
+ type:  uint(32)
+ alias: "errorNumber"
+ desc:  "Error number of last error message (zero if no error)."
+ unit:  "-"
+ flags: READONLY
+}
+
+p_dsts_sum_of_reset_time
+{
+ type:  flt(64,IEEE)*
+ alias: "sumOfResetTime"
+ desc:  "Internal variable for summing up reset time."
+ unit:  "s"
+ flags: READONLY|HIDDEN
+}
+
+
+-- ******** Task Information variables ****************************************
+group "Task Info"
+{
+ flags: COLLAPSED
+}
+  group "Timer Task 1"
+  {
+   flags: COLLAPSED
+  }
+
+  pRti_TIMERA_STime
+  {
+   type:  flt(64,IEEE)*
+   alias: "sampleTime"
+   flags: READONLY
+  }
+  pRti_TIMERA_TTime
+  {
+   type:  flt(64,IEEE)*
+   alias: "turnaroundTime"
+   flags: READONLY
+  }
+  pRti_TIMERA_TState
+  {
+   type:  int(32)*
+   alias: "state"
+   flags: READONLY
+  }
+  pRti_TIMERA_OType
+  {
+   type:  int(32)*
+   alias: "overrunCheckType"
+   flags: READONLY
+  }
+  pRti_TIMERA_OMax
+  {
+   type:  int(32)*
+   alias: "overrunQueueMax"
+   flags: READONLY
+  }
+  pRti_TIMERA_ORpt
+  {
+   type:  int(32)*
+   alias: "overrunQueueCount"
+   flags: READONLY
+  }
+  pRti_TIMERA_OCnt
+  {
+   type:  int(32)*
+   alias: "overrunCount"
+   flags: READONLY
+  }
+  pRti_TIMERA_TCnt
+  {
+   type:  flt(64,IEEE)*
+   alias: "taskCallCount"
+   flags: READONLY
+  }
+  pRti_TIMERA_Prio
+  {
+   type:  int(32)*
+   alias: "priority"
+   flags: READONLY
+  }
+  endgroup
+
+
+endgroup
+
+
+-- ******** Model variables ***************************************************
+
+group "Model Root"
+	group "Clock" -- block-group
+	{
+	 block: "Clock"
+	}
+		p_0_untitled_real_T_0[0]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+
+
+	endgroup -- block-group "Clock"
+
+	group "Constant" -- block-group
+	{
+	 block: "Constant"
+	}
+		p_0_untitled_real_T_0[1]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+		p_1_untitled_real_T_0[0]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Value"
+		 flags:   PARAM
+		}
+
+
+	endgroup -- block-group "Constant"
+
+	group "Add" -- block-group
+	{
+	 block: "Sum"
+	}
+		p_0_untitled_real_T_0[2]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		}
+
+
+	endgroup -- block-group "Add"
+
+	group "Scope" -- block-group
+	{
+	 block: "Scope"
+	}
+		p_0_untitled_real_T_0[2]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "In1"
+		 flags:   READONLY
+		}
+
+
+
+	endgroup -- block-group "Scope"
+
+  
+  
+	group "RTI Data" -- subsystem-group
+
+
+	endgroup -- subsystem-group "RTI Data"
+
+
+
+endgroup -- "Model Root"
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+-- No Stateflow chart within the model.
+
+
+-- ******** Labels ************************************************************
+
+-- Generation of labels turned off with TRCGenerateLabels option.
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+
+-- ******** User variables from model_usr.trc *********************************
+
+-- RTI_USR_TRC_BEGIN
+
+-- No user file untitled_usr.trc found.
+
+-- RTI_USR_TRC_END
+
+-- ******** EESPort States Variables ******************************************
+group "XIL API"
+{ 
+  flags: COLLAPSED
+}
+
+  group "EESPort"
+  {  
+    flags: COLLAPSED
+  }
+
+    p_xilapi_eesport_activeerrorset_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Active ErrorSet"
+      desc:    "Index of active ErrorSet or 0 if no ErrorSet is active."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+    }
+
+    p_xilapi_eesport_erroractivated_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Activated"
+      desc:    "0 - no error is activated on hardware, 1 - at least one error is activated on hardware."  
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+    }
+
+    p_xilapi_eesport_errorswitching_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Switching"
+      desc:    "0 - no switching operation running on hardware, 1 -  switching operation running on hardware."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+    }
+
+    xilapi_eesport_flags_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Flags"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+    }
+
+    xilapi_eesport_trigger_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Trigger"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+    }
+
+    endgroup -- "EESPort"
+
+endgroup -- "XILAPI"
+
+
+
+-- ******** [EOF] *************************************************************
+

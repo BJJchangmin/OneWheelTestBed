@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 6.2</creator>
+	<project>
+		<Creator type="key">ControlDesk</Creator>
+		<Name type="key">Project_001.CDP</Name>
+		<DisplayName type="key">Project_001</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">354293148</UniqueID>
+		<EntityID type="key">{76971032-4796-41D1-9DA7-1F3517FBD632}</EntityID>
+		<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">Project_001</Name>
+			<DisplayName type="key">Project_001</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">608737940</UniqueID>
+			<EntityID type="key">{015E57B4-27E1-471E-B96B-88C1A6D24C20}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">364619235</UniqueID>
+				<EntityID type="key">{D3118E7F-6200-42CA-A3CF-D3370B73A795}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">187880946</UniqueID>
+				<EntityID type="key">{D5F31815-A384-49EE-BE99-1553D71D9638}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager_global</Targets>
+				<Name type="key">Global Data Sets</Name>
+				<DisplayName type="key">Global Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">37888823</UniqueID>
+				<EntityID type="key">{13E519A4-06C4-4437-BC76-0C94DD7DB630}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">919602450</UniqueID>
+				<EntityID type="key">{F83DF521-4D69-4CD1-9D54-92A5FD796C1F}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">Project_001.vdb</Name>
+					<DisplayName type="key">C:\Users\USER\Desktop\dSPACE_Test\ControlDesk\Project_001\Variable Descriptions\Project_001.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">797232645</UniqueID>
+					<EntityID type="key">{2F0EEE53-4857-457E-BAFC-5535D6079141}</EntityID>
+					<ItemInfoDate type="key">2025-03-14 오후 5:43:04</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">test.sdf</Name>
+					<DisplayName type="key">test.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\test.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">378709822</UniqueID>
+					<EntityID type="key">{799BCC45-98AB-4D57-9CE6-6953DC44EBB6}</EntityID>
+					<ItemInfoDate type="key">2025-03-14 오후 5:43:04</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Original file added from ..\..\Simulink\test.sdf [2025-03-14 08:37:36 (UTC)]
+
+Variable description reloaded on 14.03.2025 17:47:15 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-14 08:46:57 (UTC)]
+
+Variable description reloaded on 17.03.2025 15:47:39 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-17 06:43:22 (UTC)]
+
+Variable description reloaded on 19.03.2025 15:45:02 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 06:44:06 (UTC)]
+
+Variable description reloaded on 19.03.2025 15:48:02 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 06:47:54 (UTC)]
+
+Variable description reloaded on 19.03.2025 15:57:48 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 06:57:14 (UTC)]
+
+Variable description reloaded on 19.03.2025 16:44:59 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 07:44:50 (UTC)]
+
+Variable description reloaded on 19.03.2025 16:54:18 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 07:52:32 (UTC)]
+
+Variable description reloaded on 19.03.2025 17:21:00 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 08:19:50 (UTC)]
+
+Variable description reloaded on 19.03.2025 19:12:25 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 10:10:43 (UTC)]
+
+Variable description reloaded on 19.03.2025 19:33:17 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 10:32:26 (UTC)]
+
+Variable description reloaded on 19.03.2025 19:42:40 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 10:42:14 (UTC)]
+
+Variable description reloaded on 19.03.2025 19:56:17 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-19 10:55:55 (UTC)]
+
+Variable description reloaded on 26.03.2025 18:33:36 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-26 09:32:54 (UTC)]
+
+Variable description reloaded on 26.03.2025 20:45:56 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-26 11:03:04 (UTC)]
+
+Variable description reloaded on 26.03.2025 20:59:13 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-26 11:58:51 (UTC)]
+
+Variable description reloaded on 27.03.2025 10:32:36 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 01:32:24 (UTC)]
+
+Variable description reloaded on 27.03.2025 10:38:56 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 01:38:14 (UTC)]
+
+Variable description reloaded on 27.03.2025 11:27:03 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 02:26:49 (UTC)]
+
+Variable description reloaded on 27.03.2025 12:23:18 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 03:21:59 (UTC)]
+
+Variable description reloaded on 27.03.2025 14:56:37 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 03:52:09 (UTC)]
+
+Variable description reloaded on 27.03.2025 15:24:57 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 06:23:21 (UTC)]
+
+Variable description reloaded on 27.03.2025 15:55:56 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 06:55:11 (UTC)]
+
+Variable description reloaded on 27.03.2025 17:04:03 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-27 08:02:58 (UTC)]
+
+Variable description reloaded on 28.03.2025 14:47:38 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-28 05:47:11 (UTC)]
+
+Variable description reloaded on 28.03.2025 15:31:43 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-03-28 06:31:29 (UTC)]
+
+Variable description reloaded on 03.04.2025 20:03:10 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-03 11:02:05 (UTC)]
+
+Variable description reloaded on 03.04.2025 20:07:20 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-03 11:06:54 (UTC)]
+
+Variable description reloaded on 03.04.2025 20:08:43 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-03 11:08:29 (UTC)]
+
+Variable description reloaded on 03.04.2025 20:14:21 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-03 11:13:52 (UTC)]
+
+Variable description reloaded on 04.04.2025 14:10:25 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-04 05:10:02 (UTC)]
+
+Variable description reloaded on 04.04.2025 14:37:54 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-04 05:37:42 (UTC)]
+
+Variable description reloaded on 04.04.2025 18:17:02 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-04 09:16:41 (UTC)]
+
+Variable description reloaded on 07.04.2025 15:49:12 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 06:48:52 (UTC)]
+
+Variable description reloaded on 07.04.2025 16:50:31 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 07:49:04 (UTC)]
+
+Variable description reloaded on 07.04.2025 19:58:10 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 10:57:30 (UTC)]
+
+Variable description reloaded on 07.04.2025 20:08:44 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 11:04:06 (UTC)]
+
+Variable description reloaded on 07.04.2025 20:12:43 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 11:12:27 (UTC)]
+
+Variable description reloaded on 07.04.2025 20:15:31 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 11:15:12 (UTC)]
+
+Variable description reloaded on 07.04.2025 20:20:53 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-07 11:20:31 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:05:34 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:05:18 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:09:43 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:08:59 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:13:53 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:13:08 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:21:07 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:20:30 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:25:02 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:24:02 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:31:11 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:31:00 (UTC)]
+
+Variable description reloaded on 08.04.2025 10:36:25 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 01:36:12 (UTC)]
+
+Variable description reloaded on 08.04.2025 17:09:01 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 08:08:40 (UTC)]
+
+Variable description reloaded on 08.04.2025 19:25:25 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 10:25:04 (UTC)]
+
+Variable description reloaded on 08.04.2025 21:27:05 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 12:26:35 (UTC)]
+
+Variable description reloaded on 08.04.2025 21:43:09 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-08 12:42:10 (UTC)]
+
+Variable description reloaded on 09.04.2025 18:42:04 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-09 09:41:55 (UTC)]
+
+Variable description reloaded on 09.04.2025 18:54:15 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-09 09:53:45 (UTC)]
+
+Variable description reloaded on 09.04.2025 19:10:51 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-09 10:09:36 (UTC)]
+
+Variable description reloaded on 10.04.2025 14:15:23 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 05:14:00 (UTC)]
+
+Variable description reloaded on 10.04.2025 15:03:15 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 06:02:28 (UTC)]
+
+Variable description reloaded on 10.04.2025 15:08:26 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 06:08:15 (UTC)]
+
+Variable description reloaded on 10.04.2025 15:23:48 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 06:22:44 (UTC)]
+
+Variable description reloaded on 10.04.2025 15:59:29 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 06:58:11 (UTC)]
+
+Variable description reloaded on 10.04.2025 16:16:54 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 07:16:01 (UTC)]
+
+Variable description reloaded on 10.04.2025 16:29:58 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 07:20:55 (UTC)]
+
+Variable description reloaded on 10.04.2025 16:43:22 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 07:43:06 (UTC)]
+
+Variable description reloaded on 10.04.2025 17:03:37 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 08:03:24 (UTC)]
+
+Variable description reloaded on 10.04.2025 19:08:59 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 10:08:44 (UTC)]
+
+Variable description reloaded on 10.04.2025 19:16:43 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 10:16:01 (UTC)]
+
+Variable description reloaded on 10.04.2025 19:28:05 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 10:26:49 (UTC)]
+
+Variable description reloaded on 10.04.2025 20:06:02 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-10 11:05:36 (UTC)]
+
+Variable description reloaded on 11.04.2025 10:57:47 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-11 01:57:31 (UTC)]
+
+Variable description reloaded on 11.04.2025 11:06:14 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-04-11 02:05:58 (UTC)]
+
+Variable description reloaded on 02.07.2025 16:33:39 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-02 07:33:25 (UTC)]
+
+Variable description reloaded on 07.07.2025 10:41:22 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-07 01:38:51 (UTC)]
+
+Variable description reloaded on 07.07.2025 11:17:45 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-07 02:17:33 (UTC)]
+
+Variable description reloaded on 16.07.2025 15:21:16 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-16 06:17:58 (UTC)]
+
+Variable description reloaded on 16.07.2025 16:06:42 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-16 07:06:20 (UTC)]
+
+Variable description reloaded on 16.07.2025 16:24:49 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-16 07:23:41 (UTC)]
+
+Variable description reloaded on 16.07.2025 16:38:21 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-16 07:37:37 (UTC)]
+
+Variable description reloaded on 16.07.2025 20:12:53 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
+</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.trc</Name>
+						<DisplayName type="key">test.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">1072002902</UniqueID>
+						<EntityID type="key">{882159B3-138C-4B49-A807-73271500CD8B}</EntityID>
+						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.map</Name>
+						<DisplayName type="key">test.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">308243816</UniqueID>
+						<EntityID type="key">{9E554FF8-EDB8-46AF-A946-1F90EFE794C5}</EntityID>
+						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.ppc</Name>
+						<DisplayName type="key">test.ppc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">409683467</UniqueID>
+						<EntityID type="key">{788FCB54-865C-4C6C-8607-143DA8827607}</EntityID>
+						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test.trz</Name>
+						<DisplayName type="key">test.trz</DisplayName>
+						<Path type="key">.\Variable Descriptions\test.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">347450563</UniqueID>
+						<EntityID type="key">{3311D7C4-5108-4AC5-A091-E243ED40D6E9}</EntityID>
+						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">290679315</UniqueID>
+				<EntityID type="key">{6EFC6612-8838-47E5-8733-5D29D265810D}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">14424071</UniqueID>
+				<EntityID type="key">{8316E61B-F927-43BC-9F72-05695267103D}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">4445290</UniqueID>
+				<EntityID type="key">{F9A03967-4457-49B1-A49E-378DDFEC81A2}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">984767245</UniqueID>
+				<EntityID type="key">{30110518-56BF-48EA-9BF2-8BAA277D2E0F}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">693686304</UniqueID>
+				<EntityID type="key">{C51370C8-BC71-4186-8C11-C26C1C43E62E}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">628335751</UniqueID>
+				<EntityID type="key">{816E7C27-1F1C-40F2-A518-9F90CD3FB799}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">116870213</UniqueID>
+			<EntityID type="key">{C2D52187-A227-4D79-A605-EFBAB1570850}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:43:05</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">268993986</UniqueID>
+				<EntityID type="key">{C4814A41-8863-444E-B671-16EE4D9195B7}</EntityID>
+				<ItemInfoDate type="key">2025-03-14 오후 5:43:05</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<Name type="key">Experiment_001.CDE</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">.\Experiment_001</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">215979938</UniqueID>
+			<EntityID type="key">{49285856-3C60-49E2-B324-E6B4D60B0EB3}</EntityID>
+			<ItemInfoDate type="key">2025-03-14 오후 5:43:02</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<UserManager/>
+	<XILAPIEESPort Version="1"/>
+	<SignalEditor/>
+	<Interpreter/>
+	<VariablesManagement Version="95">
+		<CreatorVersion type="key">602000599</CreatorVersion>
+	</VariablesManagement>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Experiment_001</LastActiveExperiment>
+	</ProjectExperiment>
+	<MeasureDataManagement Version="4"/>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">1</Count>
+			<File1 type="key">Experiment_001/Layout1</File1>
+			<Id1 type="key">0</Id1>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement Version="10"/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<LabelListFilter>
+			<LabelListFilterFile type="key"/>
+			<LabelListFilterActive type="key">0</LabelListFilterActive>
+		</LabelListFilter>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>

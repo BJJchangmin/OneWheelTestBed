@@ -1,0 +1,8 @@
+
+
+
+-- Type definitions for arrays
+typedef test_ArrayDT0_9999 flt(64,IEEE)[9999]
+typedef test_ArrayDT10_2 int(32)[2]
+
+

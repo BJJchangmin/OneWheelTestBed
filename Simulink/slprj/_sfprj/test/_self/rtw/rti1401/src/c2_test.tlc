@@ -1,0 +1,67 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "current_f"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:83-92"\
+    }\
+    ChartData {\
+      Name         "current_f_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:83-92"\
+    }\
+    ChartData {\
+      Name         "next_f"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:93-99"\
+    }\
+    ChartData {\
+      Name         "current_mag"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:100-111"\
+    }\
+    ChartData {\
+      Name         "next_mag"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:112-120"\
+    }\
+    ChartData {\
+      Name         "t0"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:121-123"\
+    }\
+    ChartData {\
+      Name         "prev_phase"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "test:1383:124-134"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
