@@ -7,9 +7,9 @@
  *
  * Code generation for model "test".
  *
- * Model version              : 1.61
+ * Model version              : 1.68
  * Simulink Coder version : 8.13 (R2017b) 24-Jul-2017
- * C source code generated on : Wed Jul 16 20:12:22 2025
+ * C source code generated on : Sun Jul 20 19:48:44 2025
  *
  * Target selection: rti1401.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping

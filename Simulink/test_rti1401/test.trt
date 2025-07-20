@@ -3,7 +3,7 @@
 --  Trace file: test.trc
 --
 --  RTI1401 7.9 (02-Nov-2017)
---  Wed Jul 16 20:12:22 2025
+--  Sun Jul 20 19:48:44 2025
 --
 --  Copyright 2025, dSPACE GmbH. All rights reserved.
 --
@@ -26,7 +26,7 @@
 
 _genname     "RTI"
 _genversion  "7.9"
-_gendate     "07/16/2025 20:12:27"
+_gendate     "07/20/2025 19:48:49"
 _description ""
 _author      "RTI1401 7.9 (02-Nov-2017)"
 _model       "test"
@@ -2640,11 +2640,11 @@ group "Model Root"
 
 		endgroup -- block-group "From5"
 
-		group "From6" -- block-group
+		group "From7" -- block-group
 		{
 		 block: "From"
 		}
-			p_0_test_real_T_0[10219]
+			p_0_test_real_T_0[10369]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Out1"
@@ -2652,7 +2652,7 @@ group "Model Root"
 			}
 
 
-		endgroup -- block-group "From6"
+		endgroup -- block-group "From7"
 
 		group "From9" -- block-group
 		{
@@ -2702,25 +2702,25 @@ group "Model Root"
   
 		group "N10_RPDO1" -- subsystem-group
 
-			p_0_test_real_T_0[10337]
+			p_0_test_real_T_0[10370]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "TX status"
 			 flags:   OUTPUT|READONLY
 			}
-			p_0_test_real_T_0[10338]
+			p_0_test_real_T_0[10371]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "TX time"
 			 flags:   OUTPUT|READONLY
 			}
-			p_0_test_real_T_0[10339]
+			p_0_test_real_T_0[10372]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "TX delta time"
 			 flags:   OUTPUT|READONLY
 			}
-			p_0_test_real_T_0[10340]
+			p_0_test_real_T_0[10373]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "TX delay time"
@@ -3101,6 +3101,21 @@ group "Model Root"
 
 			endgroup -- block-group "Goto1"
 
+			group "Goto2" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10216]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto2"
+
 			group "ID_idx" -- block-group
 			{
 			 block: "Goto"
@@ -3390,7 +3405,7 @@ group "Model Root"
 				{
 				 block: "From"
 				}
-					p_0_test_real_T_0[10370]
+					p_0_test_real_T_0[10409]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -3480,7 +3495,7 @@ group "Model Root"
 				{
 				 block: "Goto"
 				}
-					p_0_test_real_T_0[10370]
+					p_0_test_real_T_0[10409]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "In1"
@@ -4392,7 +4407,7 @@ group "Model Root"
   
 				group "MATLAB Function" -- subsystem-group
 
-					p_0_test_real_T_0[10370]
+					p_0_test_real_T_0[10409]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "y"
@@ -5599,6 +5614,21 @@ group "Model Root"
 
 
 			endgroup -- block-group "Gain"
+
+			group "Goto1" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10331]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto1"
 
 			group "Goto5" -- block-group
 			{
@@ -7331,6 +7361,27 @@ group "Model Root"
 
 
 
+		group "Constant1" -- block-group
+		{
+		 block: "Constant"
+		}
+			p_0_test_real_T_0[10376]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_test_real_T_0[161]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   1000.0
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant1"
+
 		group "From" -- block-group
 		{
 		 block: "From"
@@ -7353,6 +7404,76 @@ group "Model Root"
 
 
 		endgroup -- block-group "From1"
+
+		group "From11" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[10409]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From11"
+
+		group "From13" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[60]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From13"
+
+		group "From2" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[10342]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From2"
+
+		group "From20" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[10216]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From20"
+
+		group "From21" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[10363]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From21"
 
 		group "From3" -- block-group
 		{
@@ -7382,6 +7503,56 @@ group "Model Root"
 
 		endgroup -- block-group "From4"
 
+		group "From5" -- block-group
+		{
+		 block: "From"
+		}
+			-- Skipping output Out1
+
+
+		endgroup -- block-group "From5"
+
+		group "From6" -- block-group
+		{
+		 block: "From"
+		}
+			p_0_test_real_T_0[10219]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "From6"
+
+		group "From7" -- block-group
+		{
+		 block: "From"
+		}
+			-- Skipping output Out1
+
+
+		endgroup -- block-group "From7"
+
+		group "From8" -- block-group
+		{
+		 block: "From"
+		}
+			-- Skipping output Out1
+
+
+		endgroup -- block-group "From8"
+
+		group "From9" -- block-group
+		{
+		 block: "From"
+		}
+			-- Skipping output Out1
+
+
+		endgroup -- block-group "From9"
+
 		group "Goto1" -- block-group
 		{
 		 block: "Goto"
@@ -7396,6 +7567,36 @@ group "Model Root"
 
 
 		endgroup -- block-group "Goto1"
+
+		group "Goto2" -- block-group
+		{
+		 block: "Goto"
+		}
+			p_0_test_real_T_0[10369]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "In1"
+			 flags:   READONLY
+			}
+
+
+
+		endgroup -- block-group "Goto2"
+
+		group "Goto3" -- block-group
+		{
+		 block: "Goto"
+		}
+			p_0_test_real_T_0[10342]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "In1"
+			 flags:   READONLY
+			}
+
+
+
+		endgroup -- block-group "Goto3"
 
 		group "If" -- block-group
 		{
@@ -7421,6 +7622,20 @@ group "Model Root"
 
 		endgroup -- block-group "Merge"
 
+		group "Divide1" -- block-group
+		{
+		 block: "Product"
+		}
+			p_0_test_real_T_0[10377]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Divide1"
+
 		group "Product" -- block-group
 		{
 		 block: "Product"
@@ -7434,6 +7649,77 @@ group "Model Root"
 
 
 		endgroup -- block-group "Product"
+
+		group "Product1" -- block-group
+		{
+		 block: "Product"
+		}
+			p_0_test_real_T_0[10342]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Product1"
+
+		group "Add1" -- block-group
+		{
+		 block: "Sum"
+		}
+			p_0_test_real_T_0[10343]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Add1"
+
+		group "Add2" -- block-group
+		{
+		 block: "Sum"
+		}
+			p_0_test_real_T_0[10369]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Add2"
+
+		group "Add5" -- block-group
+		{
+		 block: "Sum"
+		}
+			p_0_test_real_T_0[10375]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Add5"
+
+		group "Closed_ID_Toruqe" -- block-group
+		{
+		 block: "Scope"
+		}
+			p_0_test_real_T_0[10377]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "In1"
+			 flags:   READONLY
+			}
+
+
+
+		endgroup -- block-group "Closed_ID_Toruqe"
 
   
   
@@ -9519,7 +9805,7 @@ group "Model Root"
 					{
 					 block: "Product"
 					}
-						p_0_test_real_T_0[10341]
+						p_0_test_real_T_0[10378]
 						{
 						 type:    flt(64,IEEE)*
 						 alias:   "Out1"
@@ -10177,6 +10463,1166 @@ group "Model Root"
 
 
 		endgroup -- subsystem-group "If Action\nSubsystem1"
+  
+  
+		group "Poleplacement(PI)1" -- subsystem-group
+
+			p_0_test_real_T_0[10361]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "feedback gain"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+			group "error" -- block-group
+			{
+			 block: "Inport"
+			}
+				p_0_test_real_T_0[10343]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "error"
+
+			group "BW" -- block-group
+			{
+			 block: "Inport"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "BW"
+
+			group "zeta" -- block-group
+			{
+			 block: "Inport"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "zeta"
+
+			group "ConstrolOnOff" -- block-group
+			{
+			 block: "Inport"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "ConstrolOnOff"
+
+			group "ControlInputError" -- block-group
+			{
+			 block: "Inport"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "ControlInputError"
+
+			group "Constant1" -- block-group
+			{
+			 block: "Constant"
+			}
+				-- Skipping output Out1
+				trcref0_Ts
+				{
+				 refgroup: "/Tunable Parameters"
+				 refvar:   "Ts"
+				 alias:    "Ts"
+				}
+				trcref0_Value
+				{
+				 refgroup: "/Tunable Parameters"
+				 refvar:   "Ts"
+				 alias:    "Value"
+				 flags:    DEPRECATED|HIDDEN
+				}
+
+
+			endgroup -- block-group "Constant1"
+
+			group "From" -- block-group
+			{
+			 block: "From"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "From"
+
+			group "From1" -- block-group
+			{
+			 block: "From"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "From1"
+
+			group "From2" -- block-group
+			{
+			 block: "From"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "From2"
+
+			group "From3" -- block-group
+			{
+			 block: "From"
+			}
+				p_0_test_real_T_0[10341]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "From3"
+
+			group "From4" -- block-group
+			{
+			 block: "From"
+			}
+				p_0_test_real_T_0[10347]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "From4"
+
+			group "From5" -- block-group
+			{
+			 block: "From"
+			}
+				p_0_test_real_T_0[10347]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "From5"
+
+			group "From6" -- block-group
+			{
+			 block: "From"
+			}
+				p_0_test_real_T_0[10351]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "From6"
+
+			group "From7" -- block-group
+			{
+			 block: "From"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "From7"
+
+			group "From8" -- block-group
+			{
+			 block: "From"
+			}
+				-- Skipping output Out1
+
+
+			endgroup -- block-group "From8"
+
+			group "gain\n" -- block-group
+			{
+			 block: "Gain"
+			}
+				p_0_test_real_T_0[10339]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+				p_1_test_real_T_0[151]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Gain"
+				 value:   6.2831853071795862
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "gain\n"
+
+			group "gain\n1" -- block-group
+			{
+			 block: "Gain"
+			}
+				p_0_test_real_T_0[10338]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+				p_1_test_real_T_0[149]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Gain"
+				 value:   2.0
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "gain\n1"
+
+			group "Goto" -- block-group
+			{
+			 block: "Goto"
+			}
+
+				-- Skipping inport In1
+
+
+
+
+			endgroup -- block-group "Goto"
+
+			group "Goto1" -- block-group
+			{
+			 block: "Goto"
+			}
+
+				-- Skipping inport In1
+
+
+
+
+			endgroup -- block-group "Goto1"
+
+			group "Goto4" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10351]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto4"
+
+			group "Goto7" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10341]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto7"
+
+			group "Goto8" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10347]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto8"
+
+			group "Divide" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10344]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide"
+
+			group "Divide1" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10345]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide1"
+
+			group "Divide2" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10359]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide2"
+
+			group "Divide3" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10346]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide3"
+
+			group "Divide4" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10347]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide4"
+
+			group "Divide5" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10361]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide5"
+
+			group "Divide6" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10340]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide6"
+
+			group "Divide7" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10352]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide7"
+
+			group "Divide9" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10351]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide9"
+
+			group "Saturation" -- block-group
+			{
+			 block: "Saturate"
+			}
+				p_0_test_real_T_0[10337]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+				p_1_test_real_T_0[147]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "UpperLimit"
+				 value:   3.0
+				 flags:   PARAM
+				}
+				p_1_test_real_T_0[148]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "LowerLimit"
+				 value:   0.5
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Saturation"
+
+			group "Add" -- block-group
+			{
+			 block: "Sum"
+			}
+				p_0_test_real_T_0[10348]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Add"
+
+			group "Add1" -- block-group
+			{
+			 block: "Sum"
+			}
+				p_0_test_real_T_0[10341]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Add1"
+
+			group "Sum1" -- block-group
+			{
+			 block: "Sum"
+			}
+				p_0_test_real_T_0[10360]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Sum1"
+
+			group "Sum2" -- block-group
+			{
+			 block: "Sum"
+			}
+				p_0_test_real_T_0[10353]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Sum2"
+
+  
+  
+			group "Integrator1" -- subsystem-group
+
+				p_0_test_real_T_0[10358]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "out"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+				group "in" -- block-group
+				{
+				 block: "Inport"
+				}
+					p_0_test_real_T_0[10353]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "in"
+
+				group "Off : 0\nOn : 1" -- block-group
+				{
+				 block: "Inport"
+				}
+					-- Skipping output Out1
+
+
+				endgroup -- block-group "Off : 0\nOn : 1"
+
+				group "gain" -- block-group
+				{
+				 block: "Gain"
+				}
+					p_0_test_real_T_0[10356]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+					trcref0_Ts
+					{
+					 refgroup: "/Tunable Parameters"
+					 refvar:   "Ts"
+					 alias:    "Ts"
+					}
+					-- Skipping parameter "Gain"
+
+
+				endgroup -- block-group "gain"
+
+				group "Divide" -- block-group
+				{
+				 block: "Product"
+				}
+					p_0_test_real_T_0[10374]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Divide"
+
+				group "Sum1" -- block-group
+				{
+				 block: "Sum"
+				}
+					p_0_test_real_T_0[10355]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Sum1"
+
+				group "Sum2" -- block-group
+				{
+				 block: "Sum"
+				}
+					p_0_test_real_T_0[10358]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Sum2"
+
+				group "d" -- block-group
+				{
+				 block: "UnitDelay"
+				}
+					p_0_test_real_T_0[10357]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+					p_2_test_real_T_0[30]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "DiscState"
+					 flags: READONLY
+					}
+					p_1_test_real_T_0[156]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "InitialCondition"
+					 value:   0.0
+					 flags:   PARAM
+					}
+
+
+				endgroup -- block-group "d"
+
+				group "d1" -- block-group
+				{
+				 block: "UnitDelay"
+				}
+					p_0_test_real_T_0[10354]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+					p_2_test_real_T_0[29]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "DiscState"
+					 flags: READONLY
+					}
+					p_1_test_real_T_0[155]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "InitialCondition"
+					 value:   0.0
+					 flags:   PARAM
+					}
+
+
+				endgroup -- block-group "d1"
+
+
+
+			endgroup -- subsystem-group "Integrator1"
+  
+  
+			group "Saturation\nDynamic" -- subsystem-group
+
+				p_0_test_real_T_0[10350]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "y"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+				group "up" -- block-group
+				{
+				 block: "Inport"
+				}
+					p_0_test_real_T_0[10348]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "up"
+
+				group "u" -- block-group
+				{
+				 block: "Inport"
+				}
+					p_0_test_real_T_0[10347]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "u"
+
+				group "lo" -- block-group
+				{
+				 block: "Inport"
+				}
+					-- Skipping output Out1
+
+
+				endgroup -- block-group "lo"
+
+				group "LowerRelop1" -- block-group
+				{
+				 block: "RelationalOperator"
+				}
+					p_0_test_boolean_T_1[12]
+					{
+					 type:    uint(8)*
+					 alias:   "Out1"
+					 range:   < 0 ; 1 >
+					 bitmask: 0x01
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "LowerRelop1"
+
+				group "UpperRelop" -- block-group
+				{
+				 block: "RelationalOperator"
+				}
+					p_0_test_boolean_T_1[13]
+					{
+					 type:    uint(8)*
+					 alias:   "Out1"
+					 range:   < 0 ; 1 >
+					 bitmask: 0x01
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "UpperRelop"
+
+				group "Data Type\nPropagation" -- block-group
+				{
+				 block: "S-Function"
+				}
+					p_0_test_real_T_0[10347]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In1"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10347]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In2"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10349]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In3"
+					 flags:   READONLY
+					}
+
+
+
+				endgroup -- block-group "Data Type\nPropagation"
+
+				group "Switch" -- block-group
+				{
+				 block: "Switch"
+				}
+					p_0_test_real_T_0[10349]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Switch"
+
+				group "Switch2" -- block-group
+				{
+				 block: "Switch"
+				}
+					p_0_test_real_T_0[10350]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Switch2"
+
+				group "Data Type\nDuplicate" -- block-group
+				{
+				 block: "DataTypeDuplicate"
+				}
+					p_0_test_real_T_0[10350]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In1"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10349]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In2"
+					 flags:   READONLY
+					}
+
+
+
+				endgroup -- block-group "Data Type\nDuplicate"
+
+
+
+			endgroup -- subsystem-group "Saturation\nDynamic"
+
+
+		endgroup -- subsystem-group "Poleplacement(PI)1"
+  
+  
+		group "Steering system" -- subsystem-group
+
+			p_0_test_real_T_0[10368]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Target Torque"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+			group "N*m" -- block-group
+			{
+			 block: "Inport"
+			}
+				p_0_test_real_T_0[10361]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "N*m"
+
+			group "Constant" -- block-group
+			{
+			 block: "Constant"
+			}
+				-- Skipping output Out1
+				p_1_test_real_T_0[145]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Value"
+				 value:   55.08
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Constant"
+
+			group "Constant1" -- block-group
+			{
+			 block: "Constant"
+			}
+				-- Skipping output Out1
+				p_1_test_real_T_0[158]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Value"
+				 value:   1000.0
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Constant1"
+
+			group "Constant2" -- block-group
+			{
+			 block: "Constant"
+			}
+				-- Skipping output Out1
+				p_1_test_real_T_0[157]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Value"
+				 value:   315.0
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Constant2"
+
+			group "Gain" -- block-group
+			{
+			 block: "Gain"
+			}
+				p_0_test_real_T_0[10368]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+				p_1_test_real_T_0[160]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Gain"
+				 value:   1000.0
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Gain"
+
+			group "Gain1" -- block-group
+			{
+			 block: "Gain"
+			}
+				p_0_test_real_T_0[10364]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+				p_1_test_real_T_0[159]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Gain"
+				 value:   -1.0
+				 flags:   PARAM
+				}
+
+
+			endgroup -- block-group "Gain1"
+
+			group "Goto4" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10363]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto4"
+
+			group "Divide" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10367]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide"
+
+			group "Divide1" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10363]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide1"
+
+			group "Divide3" -- block-group
+			{
+			 block: "Product"
+			}
+				p_0_test_real_T_0[10362]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "Out1"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+			endgroup -- block-group "Divide3"
+
+  
+  
+			group "Saturation\nDynamic" -- subsystem-group
+
+				p_0_test_real_T_0[10366]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "y"
+				 flags:   OUTPUT|READONLY
+				}
+
+
+				group "up" -- block-group
+				{
+				 block: "Inport"
+				}
+					-- Skipping output Out1
+
+
+				endgroup -- block-group "up"
+
+				group "u" -- block-group
+				{
+				 block: "Inport"
+				}
+					p_0_test_real_T_0[10363]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "u"
+
+				group "lo" -- block-group
+				{
+				 block: "Inport"
+				}
+					p_0_test_real_T_0[10364]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "lo"
+
+				group "LowerRelop1" -- block-group
+				{
+				 block: "RelationalOperator"
+				}
+					p_0_test_boolean_T_1[14]
+					{
+					 type:    uint(8)*
+					 alias:   "Out1"
+					 range:   < 0 ; 1 >
+					 bitmask: 0x01
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "LowerRelop1"
+
+				group "UpperRelop" -- block-group
+				{
+				 block: "RelationalOperator"
+				}
+					p_0_test_boolean_T_1[15]
+					{
+					 type:    uint(8)*
+					 alias:   "Out1"
+					 range:   < 0 ; 1 >
+					 bitmask: 0x01
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "UpperRelop"
+
+				group "Data Type\nPropagation" -- block-group
+				{
+				 block: "S-Function"
+				}
+					p_0_test_real_T_0[10363]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In1"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10363]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In2"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10365]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In3"
+					 flags:   READONLY
+					}
+
+
+
+				endgroup -- block-group "Data Type\nPropagation"
+
+				group "Switch" -- block-group
+				{
+				 block: "Switch"
+				}
+					p_0_test_real_T_0[10365]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Switch"
+
+				group "Switch2" -- block-group
+				{
+				 block: "Switch"
+				}
+					p_0_test_real_T_0[10366]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "Out1"
+					 flags:   OUTPUT|READONLY
+					}
+
+
+				endgroup -- block-group "Switch2"
+
+				group "Data Type\nDuplicate" -- block-group
+				{
+				 block: "DataTypeDuplicate"
+				}
+					p_0_test_real_T_0[10366]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In1"
+					 flags:   READONLY
+					}
+					p_0_test_real_T_0[10365]
+					{
+					 type:    flt(64,IEEE)*
+					 alias:   "In2"
+					 flags:   READONLY
+					}
+
+
+
+				endgroup -- block-group "Data Type\nDuplicate"
+
+
+
+			endgroup -- subsystem-group "Saturation\nDynamic"
+
+
+		endgroup -- subsystem-group "Steering system"
 
 
 	endgroup -- subsystem-group "__Controller"
@@ -10380,7 +11826,7 @@ group "Model Root"
 			 block: "Constant"
 			}
 				-- Skipping output Out1
-				p_1_test_real_T_0[145]
+				p_1_test_real_T_0[162]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Value"
@@ -10396,7 +11842,7 @@ group "Model Root"
 			 block: "Constant"
 			}
 				-- Skipping output Out1
-				p_1_test_real_T_0[146]
+				p_1_test_real_T_0[163]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Value"
@@ -10611,11 +12057,26 @@ group "Model Root"
 
 			endgroup -- block-group "From9"
 
+			group "Goto31" -- block-group
+			{
+			 block: "Goto"
+			}
+				p_0_test_real_T_0[10381]
+				{
+				 type:    flt(64,IEEE)*
+				 alias:   "In1"
+				 flags:   READONLY
+				}
+
+
+
+			endgroup -- block-group "Goto31"
+
 			group "Product" -- block-group
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10342]
+				p_0_test_real_T_0[10379]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10629,7 +12090,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10343]
+				p_0_test_real_T_0[10380]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10643,7 +12104,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10344]
+				p_0_test_real_T_0[10381]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10657,7 +12118,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10345]
+				p_0_test_real_T_0[10382]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10671,7 +12132,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10346]
+				p_0_test_real_T_0[10383]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10685,7 +12146,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10347]
+				p_0_test_real_T_0[10384]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -10804,7 +12265,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10344]
+				p_0_test_real_T_0[10381]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -10864,7 +12325,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10347]
+				p_0_test_real_T_0[10384]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -10889,7 +12350,7 @@ group "Model Root"
 			 block: "Constant"
 			}
 				-- Skipping output Out1
-				p_1_test_real_T_0[147]
+				p_1_test_real_T_0[164]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Value"
@@ -10905,7 +12366,7 @@ group "Model Root"
 			 block: "Constant"
 			}
 				-- Skipping output Out1
-				p_1_test_real_T_0[148]
+				p_1_test_real_T_0[165]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Value"
@@ -10921,7 +12382,7 @@ group "Model Root"
 			 block: "Constant"
 			}
 				-- Skipping output Out1
-				p_1_test_real_T_0[149]
+				p_1_test_real_T_0[166]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Value"
@@ -11053,7 +12514,7 @@ group "Model Root"
 			{
 			 block: "Merge"
 			}
-				p_0_test_real_T_0[10348]
+				p_0_test_real_T_0[10385]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11067,7 +12528,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10349]
+				p_0_test_real_T_0[10386]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11081,7 +12542,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10350]
+				p_0_test_real_T_0[10387]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11095,7 +12556,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10351]
+				p_0_test_real_T_0[10388]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11109,7 +12570,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10352]
+				p_0_test_real_T_0[10389]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11123,7 +12584,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10353]
+				p_0_test_real_T_0[10390]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11137,7 +12598,7 @@ group "Model Root"
 			{
 			 block: "Product"
 			}
-				p_0_test_real_T_0[10354]
+				p_0_test_real_T_0[10391]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11151,7 +12612,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10348]
+				p_0_test_real_T_0[10385]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11166,7 +12627,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10351]
+				p_0_test_real_T_0[10388]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11181,7 +12642,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10354]
+				p_0_test_real_T_0[10391]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11196,7 +12657,7 @@ group "Model Root"
   
 			group "If Action\nSubsystem4" -- subsystem-group
 
-				p_0_test_real_T_0[10348]
+				p_0_test_real_T_0[10385]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11208,7 +12669,7 @@ group "Model Root"
 				{
 				 block: "Inport"
 				}
-					p_0_test_real_T_0[10348]
+					p_0_test_real_T_0[10385]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11234,7 +12695,7 @@ group "Model Root"
   
 			group "If Action\nSubsystem5" -- subsystem-group
 
-				p_0_test_real_T_0[10348]
+				p_0_test_real_T_0[10385]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11317,7 +12778,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10368]
+					p_0_test_real_T_0[10407]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11331,7 +12792,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10369]
+					p_0_test_real_T_0[10408]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11345,7 +12806,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10348]
+					p_0_test_real_T_0[10385]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11362,7 +12823,7 @@ group "Model Root"
   
 			group "If Action\nSubsystem6" -- subsystem-group
 
-				p_0_test_real_T_0[10348]
+				p_0_test_real_T_0[10385]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11374,7 +12835,7 @@ group "Model Root"
 				{
 				 block: "Inport"
 				}
-					p_0_test_real_T_0[10348]
+					p_0_test_real_T_0[10385]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11478,7 +12939,7 @@ group "Model Root"
 			{
 			 block: "Sum"
 			}
-				p_0_test_real_T_0[10355]
+				p_0_test_real_T_0[10392]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11492,7 +12953,7 @@ group "Model Root"
 			{
 			 block: "Sum"
 			}
-				p_0_test_real_T_0[10360]
+				p_0_test_real_T_0[10397]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11506,7 +12967,7 @@ group "Model Root"
 			{
 			 block: "Sum"
 			}
-				p_0_test_real_T_0[10365]
+				p_0_test_real_T_0[10402]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "Out1"
@@ -11520,7 +12981,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10355]
+				p_0_test_real_T_0[10392]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11535,7 +12996,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10360]
+				p_0_test_real_T_0[10397]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11550,7 +13011,7 @@ group "Model Root"
 			{
 			 block: "Scope"
 			}
-				p_0_test_real_T_0[10365]
+				p_0_test_real_T_0[10402]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "In1"
@@ -11565,7 +13026,7 @@ group "Model Root"
   
 			group "Subsystem" -- subsystem-group
 
-				p_0_test_real_T_0[10359]
+				p_0_test_real_T_0[10396]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "N"
@@ -11592,7 +13053,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[153]
+					p_1_test_real_T_0[170]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11608,7 +13069,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[151]
+					p_1_test_real_T_0[168]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11624,7 +13085,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[152]
+					p_1_test_real_T_0[169]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11648,7 +13109,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10357]
+					p_0_test_real_T_0[10394]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11662,7 +13123,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10356]
+					p_0_test_real_T_0[10393]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11676,7 +13137,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10358]
+					p_0_test_real_T_0[10395]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11690,7 +13151,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10359]
+					p_0_test_real_T_0[10396]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11707,7 +13168,7 @@ group "Model Root"
   
 			group "Subsystem1" -- subsystem-group
 
-				p_0_test_real_T_0[10364]
+				p_0_test_real_T_0[10401]
 				{
 				 type:    flt(64,IEEE)*
 				 alias:   "N"
@@ -11734,7 +13195,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[158]
+					p_1_test_real_T_0[175]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11750,7 +13211,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[156]
+					p_1_test_real_T_0[173]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11766,7 +13227,7 @@ group "Model Root"
 				 block: "Constant"
 				}
 					-- Skipping output Out1
-					p_1_test_real_T_0[157]
+					p_1_test_real_T_0[174]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Value"
@@ -11790,7 +13251,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10362]
+					p_0_test_real_T_0[10399]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11804,7 +13265,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10361]
+					p_0_test_real_T_0[10398]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11818,7 +13279,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10363]
+					p_0_test_real_T_0[10400]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11832,7 +13293,7 @@ group "Model Root"
 				{
 				 block: "Product"
 				}
-					p_0_test_real_T_0[10364]
+					p_0_test_real_T_0[10401]
 					{
 					 type:    flt(64,IEEE)*
 					 alias:   "Out1"
@@ -11861,13 +13322,13 @@ group "Model Root"
 		{
 		 block: "Constant"
 		}
-			p_0_test_real_T_0[10366]
+			p_0_test_real_T_0[10403]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Out1"
 			 flags:   OUTPUT|READONLY
 			}
-			p_1_test_real_T_0[160]
+			p_1_test_real_T_0[177]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -11904,7 +13365,7 @@ group "Model Root"
 		 block: "Constant"
 		}
 			-- Skipping output Out1
-			p_1_test_real_T_0[155]
+			p_1_test_real_T_0[172]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -11920,7 +13381,7 @@ group "Model Root"
 		 block: "Constant"
 		}
 			-- Skipping output Out1
-			p_1_test_real_T_0[159]
+			p_1_test_real_T_0[176]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -11957,7 +13418,7 @@ group "Model Root"
 		 block: "Constant"
 		}
 			-- Skipping output Out1
-			p_1_test_real_T_0[154]
+			p_1_test_real_T_0[171]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -12101,7 +13562,7 @@ group "Model Root"
 		 block: "Constant"
 		}
 			-- Skipping output Out1
-			p_1_test_real_T_0[150]
+			p_1_test_real_T_0[167]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -12132,13 +13593,13 @@ group "Model Root"
 		{
 		 block: "Constant"
 		}
-			p_0_test_real_T_0[10367]
+			p_0_test_real_T_0[10404]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Out1"
 			 flags:   OUTPUT|READONLY
 			}
-			p_1_test_real_T_0[161]
+			p_1_test_real_T_0[178]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
@@ -12334,7 +13795,7 @@ group "Model Root"
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "Value"
-			 value:   0.01
+			 value:   0.0
 			 flags:   PARAM
 			}
 
@@ -12388,6 +13849,128 @@ group "Model Root"
 
 
 		endgroup -- block-group "radius"
+
+		group "steer_Bn" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_test_real_T_0[153]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   18.5
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "steer_Bn"
+
+		group "steer_Jn" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_test_real_T_0[152]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   2.64
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "steer_Jn"
+
+		group "str_DOB_CutOff" -- block-group
+		{
+		 block: "Constant"
+		}
+			p_0_test_real_T_0[10406]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_test_real_T_0[180]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   0.0
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "str_DOB_CutOff"
+
+		group "str_DOB_OnOff" -- block-group
+		{
+		 block: "Constant"
+		}
+			p_0_test_real_T_0[10405]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_test_real_T_0[179]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   0.0
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "str_DOB_OnOff"
+
+		group "str_PID_CutOff" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_test_real_T_0[150]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   0.1
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "str_PID_CutOff"
+
+		group "str_PID_OnOff" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_test_real_T_0[154]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   0.0
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "str_PID_OnOff"
+
+		group "str_PID_zeta" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_test_real_T_0[146]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Value"
+			 value:   1.0
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "str_PID_zeta"
 
 		group "str_pos_ref_cutoff" -- block-group
 		{
@@ -12593,7 +14176,7 @@ group "Model Root"
 		{
 		 block: "Goto"
 		}
-			p_0_test_real_T_0[10367]
+			p_0_test_real_T_0[10404]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "In1"
@@ -12731,7 +14314,7 @@ group "Model Root"
 		{
 		 block: "Goto"
 		}
-			p_0_test_real_T_0[10366]
+			p_0_test_real_T_0[10403]
 			{
 			 type:    flt(64,IEEE)*
 			 alias:   "In1"
@@ -12999,6 +14582,96 @@ group "Model Root"
 
 
 		endgroup -- block-group "Goto40"
+
+		group "Goto41" -- block-group
+		{
+		 block: "Goto"
+		}
+
+			-- Skipping inport In1
+
+
+
+
+		endgroup -- block-group "Goto41"
+
+		group "Goto42" -- block-group
+		{
+		 block: "Goto"
+		}
+
+			-- Skipping inport In1
+
+
+
+
+		endgroup -- block-group "Goto42"
+
+		group "Goto43" -- block-group
+		{
+		 block: "Goto"
+		}
+
+			-- Skipping inport In1
+
+
+
+
+		endgroup -- block-group "Goto43"
+
+		group "Goto44" -- block-group
+		{
+		 block: "Goto"
+		}
+
+			-- Skipping inport In1
+
+
+
+
+		endgroup -- block-group "Goto44"
+
+		group "Goto45" -- block-group
+		{
+		 block: "Goto"
+		}
+
+			-- Skipping inport In1
+
+
+
+
+		endgroup -- block-group "Goto45"
+
+		group "Goto46" -- block-group
+		{
+		 block: "Goto"
+		}
+			p_0_test_real_T_0[10405]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "In1"
+			 flags:   READONLY
+			}
+
+
+
+		endgroup -- block-group "Goto46"
+
+		group "Goto47" -- block-group
+		{
+		 block: "Goto"
+		}
+			p_0_test_real_T_0[10406]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "In1"
+			 flags:   READONLY
+			}
+
+
+
+		endgroup -- block-group "Goto47"
 
 		group "Goto5" -- block-group
 		{

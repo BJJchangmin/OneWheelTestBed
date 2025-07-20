@@ -7,9 +7,9 @@
  *
  * Code generation for model "test".
  *
- * Model version              : 1.61
+ * Model version              : 1.68
  * Simulink Coder version : 8.13 (R2017b) 24-Jul-2017
- * C source code generated on : Wed Jul 16 20:12:22 2025
+ * C source code generated on : Sun Jul 20 19:48:44 2025
  *
  * Target selection: rti1401.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -215,7 +215,7 @@ typedef struct {
   real_T SFunction1_o3_gi;             /* '<S33>/S-Function1' */
   real_T SFunction1_o4_p;              /* '<S33>/S-Function1' */
   real_T DrivingInputMode;             /* '<S8>/Driving Input Mode' */
-  real_T Merge;                        /* '<S87>/Merge' */
+  real_T Merge;                        /* '<S102>/Merge' */
   real_T sampletime_d;                 /* '<S56>/sample time' */
   real_T deltariselimit_n;             /* '<S56>/delta rise limit' */
   real_T Product3_i;                   /* '<S44>/Product3' */
@@ -245,7 +245,7 @@ typedef struct {
   real_T Product7;                     /* '<S44>/Product7' */
   real_T Product10;                    /* '<S44>/Product10' */
   real_T DataTypeConversion2;          /* '<S44>/Data Type Conversion2' */
-  real_T Merge1;                       /* '<S87>/Merge1' */
+  real_T Merge1;                       /* '<S102>/Merge1' */
   real_T Gain_m;                       /* '<S8>/Gain' */
   real_T Delay1;                       /* '<S8>/Delay1' */
   real_T Add_b;                        /* '<S8>/Add' */
@@ -291,85 +291,85 @@ typedef struct {
   real_T Constant_p;                   /* '<S39>/Constant' */
   real_T Divide;                       /* '<S39>/Divide' */
   real_T Gain_i;                       /* '<S39>/Gain' */
-  real_T Divide1_ad;                   /* '<S68>/Divide1' */
-  real_T d_l;                          /* '<S73>/d' */
-  real_T Sum2_i;                       /* '<S73>/Sum2' */
-  real_T gain_gx;                      /* '<S73>/gain' */
-  real_T d1_p;                         /* '<S73>/d1' */
-  real_T Sum1_i2;                      /* '<S73>/Sum1' */
-  real_T Divide2_n;                    /* '<S68>/Divide2' */
-  real_T Divide4_c;                    /* '<S68>/Divide4' */
-  real_T Add5;                         /* '<S68>/Add5' */
-  real_T d1_hw;                        /* '<S74>/d1' */
-  real_T Sum3_p;                       /* '<S74>/Sum3' */
-  real_T gain_n;                       /* '<S74>/gain' */
-  real_T gain2_d;                      /* '<S74>/gain2' */
-  real_T Product2_h;                   /* '<S74>/Product2' */
-  real_T gain1_f;                      /* '<S74>/gain1' */
-  real_T Sum1_h;                       /* '<S74>/Sum1' */
-  real_T d_p;                          /* '<S74>/d' */
-  real_T Product11_j;                  /* '<S74>/Product11' */
-  real_T Sum2_e;                       /* '<S74>/Sum2' */
-  real_T Sum4_a;                       /* '<S74>/Sum4' */
-  real_T Product1_p;                   /* '<S74>/Product1' */
-  real_T Divide_n;                     /* '<S68>/Divide' */
-  real_T Saturation_c;                 /* '<S69>/Saturation' */
-  real_T gain1_l0;                     /* '<S69>/gain 1' */
-  real_T gain_o;                       /* '<S69>/gain ' */
-  real_T Divide6;                      /* '<S69>/Divide6' */
-  real_T Add1_b;                       /* '<S69>/Add1' */
-  real_T Add1_p;                       /* '<S64>/Add1' */
-  real_T Divide_m;                     /* '<S69>/Divide' */
-  real_T Divide1_m;                    /* '<S69>/Divide1' */
-  real_T Divide3_m;                    /* '<S69>/Divide3' */
-  real_T Divide4_n;                    /* '<S69>/Divide4' */
-  real_T Add_i;                        /* '<S69>/Add' */
-  real_T Switch_h;                     /* '<S76>/Switch' */
-  real_T Switch2_g;                    /* '<S76>/Switch2' */
-  real_T Divide9;                      /* '<S69>/Divide9' */
-  real_T Divide7;                      /* '<S69>/Divide7' */
-  real_T Sum2_h;                       /* '<S69>/Sum2' */
-  real_T d1_n;                         /* '<S75>/d1' */
-  real_T Sum1_f;                       /* '<S75>/Sum1' */
-  real_T gain_a;                       /* '<S75>/gain' */
-  real_T d_b;                          /* '<S75>/d' */
-  real_T Sum2_p;                       /* '<S75>/Sum2' */
-  real_T Divide2_c;                    /* '<S69>/Divide2' */
-  real_T Sum1_a;                       /* '<S69>/Sum1' */
-  real_T Divide5;                      /* '<S69>/Divide5' */
-  real_T Delay;                        /* '<S67>/Delay' */
-  real_T Divide5_a;                    /* '<S67>/Divide5' */
-  real_T Divide1_l;                    /* '<S67>/Divide1' */
-  real_T d_o;                          /* '<S71>/d' */
-  real_T Sum2_g;                       /* '<S71>/Sum2' */
-  real_T gain_fg;                      /* '<S71>/gain' */
-  real_T d1_h0;                        /* '<S71>/d1' */
-  real_T Sum1_is;                      /* '<S71>/Sum1' */
-  real_T Divide2_j;                    /* '<S67>/Divide2' */
-  real_T Divide4_i;                    /* '<S67>/Divide4' */
-  real_T Add2;                         /* '<S67>/Add2' */
-  real_T Add1_g;                       /* '<S67>/Add1' */
-  real_T d1_i;                         /* '<S72>/d1' */
-  real_T Sum3_k;                       /* '<S72>/Sum3' */
-  real_T gain_ff;                      /* '<S72>/gain' */
-  real_T gain2_p;                      /* '<S72>/gain2' */
-  real_T Product2_e;                   /* '<S72>/Product2' */
-  real_T gain1_p;                      /* '<S72>/gain1' */
-  real_T Sum1_e;                       /* '<S72>/Sum1' */
-  real_T d_n;                          /* '<S72>/d' */
-  real_T Product11_i;                  /* '<S72>/Product11' */
-  real_T Sum2_c;                       /* '<S72>/Sum2' */
-  real_T Sum4_m;                       /* '<S72>/Sum4' */
-  real_T Product1_l5;                  /* '<S72>/Product1' */
-  real_T Divide6_e;                    /* '<S67>/Divide6' */
-  real_T Add_j;                        /* '<S64>/Add' */
-  real_T Divide3_i;                    /* '<S70>/Divide3' */
-  real_T Divide1_g;                    /* '<S70>/Divide1' */
-  real_T Gain1_o;                      /* '<S70>/Gain1' */
-  real_T Switch_b;                     /* '<S77>/Switch' */
-  real_T Switch2_b;                    /* '<S77>/Switch2' */
-  real_T Divide_i;                     /* '<S70>/Divide' */
-  real_T Gain_f;                       /* '<S70>/Gain' */
+  real_T Divide1_ad;                   /* '<S77>/Divide1' */
+  real_T d_l;                          /* '<S82>/d' */
+  real_T Sum2_i;                       /* '<S82>/Sum2' */
+  real_T gain_gx;                      /* '<S82>/gain' */
+  real_T d1_p;                         /* '<S82>/d1' */
+  real_T Sum1_i2;                      /* '<S82>/Sum1' */
+  real_T Divide2_n;                    /* '<S77>/Divide2' */
+  real_T Divide4_c;                    /* '<S77>/Divide4' */
+  real_T Add5;                         /* '<S77>/Add5' */
+  real_T d1_hw;                        /* '<S83>/d1' */
+  real_T Sum3_p;                       /* '<S83>/Sum3' */
+  real_T gain_n;                       /* '<S83>/gain' */
+  real_T gain2_d;                      /* '<S83>/gain2' */
+  real_T Product2_h;                   /* '<S83>/Product2' */
+  real_T gain1_f;                      /* '<S83>/gain1' */
+  real_T Sum1_h;                       /* '<S83>/Sum1' */
+  real_T d_p;                          /* '<S83>/d' */
+  real_T Product11_j;                  /* '<S83>/Product11' */
+  real_T Sum2_e;                       /* '<S83>/Sum2' */
+  real_T Sum4_a;                       /* '<S83>/Sum4' */
+  real_T Product1_p;                   /* '<S83>/Product1' */
+  real_T Divide_n;                     /* '<S77>/Divide' */
+  real_T Saturation_c;                 /* '<S78>/Saturation' */
+  real_T gain1_l0;                     /* '<S78>/gain 1' */
+  real_T gain_o;                       /* '<S78>/gain ' */
+  real_T Divide6;                      /* '<S78>/Divide6' */
+  real_T Add1_b;                       /* '<S78>/Add1' */
+  real_T Add1_p;                       /* '<S65>/Add1' */
+  real_T Divide_m;                     /* '<S78>/Divide' */
+  real_T Divide1_m;                    /* '<S78>/Divide1' */
+  real_T Divide3_m;                    /* '<S78>/Divide3' */
+  real_T Divide4_n;                    /* '<S78>/Divide4' */
+  real_T Add_i;                        /* '<S78>/Add' */
+  real_T Switch_h;                     /* '<S85>/Switch' */
+  real_T Switch2_g;                    /* '<S85>/Switch2' */
+  real_T Divide9;                      /* '<S78>/Divide9' */
+  real_T Divide7;                      /* '<S78>/Divide7' */
+  real_T Sum2_h;                       /* '<S78>/Sum2' */
+  real_T d1_n;                         /* '<S84>/d1' */
+  real_T Sum1_f;                       /* '<S84>/Sum1' */
+  real_T gain_a;                       /* '<S84>/gain' */
+  real_T d_b;                          /* '<S84>/d' */
+  real_T Sum2_p;                       /* '<S84>/Sum2' */
+  real_T Divide2_c;                    /* '<S78>/Divide2' */
+  real_T Sum1_a;                       /* '<S78>/Sum1' */
+  real_T Divide5;                      /* '<S78>/Divide5' */
+  real_T Delay;                        /* '<S76>/Delay' */
+  real_T Divide5_a;                    /* '<S76>/Divide5' */
+  real_T Divide1_l;                    /* '<S76>/Divide1' */
+  real_T d_o;                          /* '<S80>/d' */
+  real_T Sum2_g;                       /* '<S80>/Sum2' */
+  real_T gain_fg;                      /* '<S80>/gain' */
+  real_T d1_h0;                        /* '<S80>/d1' */
+  real_T Sum1_is;                      /* '<S80>/Sum1' */
+  real_T Divide2_j;                    /* '<S76>/Divide2' */
+  real_T Divide4_i;                    /* '<S76>/Divide4' */
+  real_T Add2;                         /* '<S76>/Add2' */
+  real_T Add1_g;                       /* '<S76>/Add1' */
+  real_T d1_i;                         /* '<S81>/d1' */
+  real_T Sum3_k;                       /* '<S81>/Sum3' */
+  real_T gain_ff;                      /* '<S81>/gain' */
+  real_T gain2_p;                      /* '<S81>/gain2' */
+  real_T Product2_e;                   /* '<S81>/Product2' */
+  real_T gain1_p;                      /* '<S81>/gain1' */
+  real_T Sum1_e;                       /* '<S81>/Sum1' */
+  real_T d_n;                          /* '<S81>/d' */
+  real_T Product11_i;                  /* '<S81>/Product11' */
+  real_T Sum2_c;                       /* '<S81>/Sum2' */
+  real_T Sum4_m;                       /* '<S81>/Sum4' */
+  real_T Product1_l5;                  /* '<S81>/Product1' */
+  real_T Divide6_e;                    /* '<S76>/Divide6' */
+  real_T Add_j;                        /* '<S65>/Add' */
+  real_T Divide3_i;                    /* '<S79>/Divide3' */
+  real_T Divide1_g;                    /* '<S79>/Divide1' */
+  real_T Gain1_o;                      /* '<S79>/Gain1' */
+  real_T Switch_b;                     /* '<S86>/Switch' */
+  real_T Switch2_b;                    /* '<S86>/Switch2' */
+  real_T Divide_i;                     /* '<S79>/Divide' */
+  real_T Gain_f;                       /* '<S79>/Gain' */
   real_T Merge_m;                      /* '<S6>/Merge' */
   real_T Product_h;                    /* '<S6>/Product' */
   real_T SFunction1_o1_fz;             /* '<S35>/S-Function1' */
@@ -408,39 +408,78 @@ typedef struct {
   real_T Product1_pc;                  /* '<S41>/Product1' */
   real_T Round;                        /* '<S41>/Round' */
   real_T DataTypeConversion;           /* '<S41>/Data Type Conversion' */
+  real_T Saturation_nv;                /* '<S69>/Saturation' */
+  real_T gain1_h;                      /* '<S69>/gain 1' */
+  real_T gain_km;                      /* '<S69>/gain ' */
+  real_T Divide6_ek;                   /* '<S69>/Divide6' */
+  real_T Add1_n;                       /* '<S69>/Add1' */
+  real_T Product1_pl;                  /* '<S6>/Product1' */
+  real_T Add1_j;                       /* '<S6>/Add1' */
+  real_T Divide_b;                     /* '<S69>/Divide' */
+  real_T Divide1_lp;                   /* '<S69>/Divide1' */
+  real_T Divide3_b;                    /* '<S69>/Divide3' */
+  real_T Divide4_j;                    /* '<S69>/Divide4' */
+  real_T Add_l;                        /* '<S69>/Add' */
+  real_T Switch_b3;                    /* '<S90>/Switch' */
+  real_T Switch2_bs;                   /* '<S90>/Switch2' */
+  real_T Divide9_h;                    /* '<S69>/Divide9' */
+  real_T Divide7_p;                    /* '<S69>/Divide7' */
+  real_T Sum2_f;                       /* '<S69>/Sum2' */
+  real_T d1_f;                         /* '<S89>/d1' */
+  real_T Sum1_p;                       /* '<S89>/Sum1' */
+  real_T gain_os;                      /* '<S89>/gain' */
+  real_T d_j;                          /* '<S89>/d' */
+  real_T Sum2_a;                       /* '<S89>/Sum2' */
+  real_T Divide2_g;                    /* '<S69>/Divide2' */
+  real_T Sum1_g;                       /* '<S69>/Sum1' */
+  real_T Divide5_p;                    /* '<S69>/Divide5' */
+  real_T Divide3_c;                    /* '<S70>/Divide3' */
+  real_T Divide1_o;                    /* '<S70>/Divide1' */
+  real_T Gain1_j;                      /* '<S70>/Gain1' */
+  real_T Switch_c;                     /* '<S91>/Switch' */
+  real_T Switch2_n;                    /* '<S91>/Switch2' */
+  real_T Divide_bg;                    /* '<S70>/Divide' */
+  real_T Gain_j;                       /* '<S70>/Gain' */
+  real_T Add2_f;                       /* '<S6>/Add2' */
   real_T SFunction1_o1_e;              /* '<S31>/S-Function1' */
   real_T SFunction1_o2_iy;             /* '<S31>/S-Function1' */
   real_T SFunction1_o3_o;              /* '<S31>/S-Function1' */
   real_T SFunction1_o4_lg;             /* '<S31>/S-Function1' */
-  real_T Divide_k;                     /* '<S75>/Divide' */
-  real_T Product_cn;                   /* '<S79>/Product' */
-  real_T Product1_c;                   /* '<S79>/Product1' */
-  real_T Product2_j;                   /* '<S79>/Product2' */
-  real_T Product3_j;                   /* '<S79>/Product3' */
-  real_T Product4_e;                   /* '<S79>/Product4' */
-  real_T Product5_c;                   /* '<S79>/Product5' */
-  real_T Merge2;                       /* '<S80>/Merge2' */
-  real_T Product_o;                    /* '<S80>/Product' */
-  real_T Product1_fn;                  /* '<S80>/Product1' */
-  real_T Product2_kc;                  /* '<S80>/Product2' */
-  real_T Product3_d;                   /* '<S80>/Product3' */
-  real_T Product4_ej;                  /* '<S80>/Product4' */
-  real_T Product5_e;                   /* '<S80>/Product5' */
-  real_T Add_k;                        /* '<S81>/Add' */
-  real_T Divide2_d;                    /* '<S85>/Divide2' */
-  real_T Divide1_h;                    /* '<S85>/Divide1' */
-  real_T Divide3_d;                    /* '<S85>/Divide3' */
-  real_T Divide4_p;                    /* '<S85>/Divide4' */
-  real_T Add1_i;                       /* '<S81>/Add1' */
-  real_T Divide2_n5;                   /* '<S86>/Divide2' */
-  real_T Divide1_g2;                   /* '<S86>/Divide1' */
-  real_T Divide3_p;                    /* '<S86>/Divide3' */
-  real_T Divide5_e;                    /* '<S86>/Divide5' */
-  real_T Add2_c;                       /* '<S81>/Add2' */
+  real_T Divide_a;                     /* '<S89>/Divide' */
+  real_T Add5_l;                       /* '<S6>/Add5' */
+  real_T Constant1;                    /* '<S6>/Constant1' */
+  real_T Divide1_li;                   /* '<S6>/Divide1' */
+  real_T Divide_k;                     /* '<S84>/Divide' */
+  real_T Product_cn;                   /* '<S94>/Product' */
+  real_T Product1_c;                   /* '<S94>/Product1' */
+  real_T Product2_j;                   /* '<S94>/Product2' */
+  real_T Product3_j;                   /* '<S94>/Product3' */
+  real_T Product4_e;                   /* '<S94>/Product4' */
+  real_T Product5_c;                   /* '<S94>/Product5' */
+  real_T Merge2;                       /* '<S95>/Merge2' */
+  real_T Product_o;                    /* '<S95>/Product' */
+  real_T Product1_fn;                  /* '<S95>/Product1' */
+  real_T Product2_kc;                  /* '<S95>/Product2' */
+  real_T Product3_d;                   /* '<S95>/Product3' */
+  real_T Product4_ej;                  /* '<S95>/Product4' */
+  real_T Product5_e;                   /* '<S95>/Product5' */
+  real_T Add_k;                        /* '<S96>/Add' */
+  real_T Divide2_d;                    /* '<S100>/Divide2' */
+  real_T Divide1_h;                    /* '<S100>/Divide1' */
+  real_T Divide3_d;                    /* '<S100>/Divide3' */
+  real_T Divide4_p;                    /* '<S100>/Divide4' */
+  real_T Add1_i;                       /* '<S96>/Add1' */
+  real_T Divide2_n5;                   /* '<S101>/Divide2' */
+  real_T Divide1_g2;                   /* '<S101>/Divide1' */
+  real_T Divide3_p;                    /* '<S101>/Divide3' */
+  real_T Divide5_e;                    /* '<S101>/Divide5' */
+  real_T Add2_c;                       /* '<S96>/Add2' */
   real_T Data_Logging;                 /* '<S8>/Data_Logging' */
   real_T cpt_dri;                      /* '<S8>/cpt_dri' */
-  real_T Product_i;                    /* '<S83>/Product' */
-  real_T Product1_cu;                  /* '<S83>/Product1' */
+  real_T str_DOB_OnOff;                /* '<S8>/str_DOB_OnOff' */
+  real_T str_DOB_CutOff;               /* '<S8>/str_DOB_CutOff' */
+  real_T Product_i;                    /* '<S98>/Product' */
+  real_T Product1_cu;                  /* '<S98>/Product1' */
   real_T y;                            /* '<S43>/MATLAB Function' */
   boolean_T LowerRelop1;               /* '<S63>/LowerRelop1' */
   boolean_T UpperRelop;                /* '<S63>/UpperRelop' */
@@ -448,12 +487,16 @@ typedef struct {
   boolean_T UpperRelop_b;              /* '<S57>/UpperRelop' */
   boolean_T LowerRelop1_j;             /* '<S54>/LowerRelop1' */
   boolean_T UpperRelop_a;              /* '<S54>/UpperRelop' */
-  boolean_T LowerRelop1_e;             /* '<S76>/LowerRelop1' */
-  boolean_T UpperRelop_g;              /* '<S76>/UpperRelop' */
-  boolean_T LowerRelop1_a;             /* '<S77>/LowerRelop1' */
-  boolean_T UpperRelop_m;              /* '<S77>/UpperRelop' */
+  boolean_T LowerRelop1_e;             /* '<S85>/LowerRelop1' */
+  boolean_T UpperRelop_g;              /* '<S85>/UpperRelop' */
+  boolean_T LowerRelop1_a;             /* '<S86>/LowerRelop1' */
+  boolean_T UpperRelop_m;              /* '<S86>/UpperRelop' */
   boolean_T LowerRelop1_o;             /* '<S60>/LowerRelop1' */
   boolean_T UpperRelop_j;              /* '<S60>/UpperRelop' */
+  boolean_T LowerRelop1_b;             /* '<S90>/LowerRelop1' */
+  boolean_T UpperRelop_ab;             /* '<S90>/UpperRelop' */
+  boolean_T LowerRelop1_m;             /* '<S91>/LowerRelop1' */
+  boolean_T UpperRelop_my;             /* '<S91>/UpperRelop' */
 } B_test_T;
 
 /* Block states (auto storage) for system '<Root>' */
@@ -473,20 +516,22 @@ typedef struct {
   real_T d1_DSTATE_p;                  /* '<S51>/d1' */
   real_T d_DSTATE_f;                   /* '<S51>/d' */
   real_T Delay2_DSTATE;                /* '<S8>/Delay2' */
-  real_T d_DSTATE_cq;                  /* '<S73>/d' */
-  real_T d1_DSTATE_f;                  /* '<S73>/d1' */
-  real_T d1_DSTATE_ga;                 /* '<S74>/d1' */
-  real_T d_DSTATE_h;                   /* '<S74>/d' */
-  real_T d1_DSTATE_d;                  /* '<S75>/d1' */
-  real_T d_DSTATE_p;                   /* '<S75>/d' */
-  real_T Delay_DSTATE;                 /* '<S67>/Delay' */
-  real_T d_DSTATE_fu;                  /* '<S71>/d' */
-  real_T d1_DSTATE_fx;                 /* '<S71>/d1' */
-  real_T d1_DSTATE_m;                  /* '<S72>/d1' */
-  real_T d_DSTATE_m;                   /* '<S72>/d' */
+  real_T d_DSTATE_cq;                  /* '<S82>/d' */
+  real_T d1_DSTATE_f;                  /* '<S82>/d1' */
+  real_T d1_DSTATE_ga;                 /* '<S83>/d1' */
+  real_T d_DSTATE_h;                   /* '<S83>/d' */
+  real_T d1_DSTATE_d;                  /* '<S84>/d1' */
+  real_T d_DSTATE_p;                   /* '<S84>/d' */
+  real_T Delay_DSTATE;                 /* '<S76>/Delay' */
+  real_T d_DSTATE_fu;                  /* '<S80>/d' */
+  real_T d1_DSTATE_fx;                 /* '<S80>/d1' */
+  real_T d1_DSTATE_m;                  /* '<S81>/d1' */
+  real_T d_DSTATE_m;                   /* '<S81>/d' */
   real_T DelayInput2_DSTATE_n;         /* '<S59>/Delay Input2' */
   real_T d1_DSTATE_k;                  /* '<S58>/d1' */
   real_T d_DSTATE_ow;                  /* '<S58>/d' */
+  real_T d1_DSTATE_j;                  /* '<S89>/d1' */
+  real_T d_DSTATE_n;                   /* '<S89>/d' */
   real_T current_f;                    /* '<S43>/MATLAB Function' */
   real_T next_f;                       /* '<S43>/MATLAB Function' */
   real_T current_mag;                  /* '<S43>/MATLAB Function' */
@@ -509,6 +554,10 @@ typedef struct {
 
   struct {
     void *LoggedData;
+  } Closed_ID_Toruqe_PWORK;            /* '<S6>/Closed_ID_Toruqe' */
+
+  struct {
+    void *LoggedData;
   } ID_Target_Torque_PWORK;            /* '<S7>/ID_Target_Torque' */
 
   struct {
@@ -517,108 +566,108 @@ typedef struct {
 
   struct {
     void *LoggedData;
-  } dri_ctrl_Total_PWORK;              /* '<S78>/dri_ctrl_Total' */
+  } dri_ctrl_Total_PWORK;              /* '<S93>/dri_ctrl_Total' */
 
   struct {
     void *LoggedData;
-  } dri_ctrl_FF_PWORK;                 /* '<S78>/dri_ctrl_FF' */
+  } dri_ctrl_FF_PWORK;                 /* '<S93>/dri_ctrl_FF' */
 
   struct {
     void *LoggedData;
-  } dri_ctrl_dhat_PWORK;               /* '<S78>/dri_ctrl_dhat' */
+  } dri_ctrl_dhat_PWORK;               /* '<S93>/dri_ctrl_dhat' */
 
   struct {
     void *LoggedData;
-  } dri_ctrl_PID_PWORK;                /* '<S78>/dri_ctrl_PID' */
+  } dri_ctrl_PID_PWORK;                /* '<S93>/dri_ctrl_PID' */
 
   struct {
     void *LoggedData;
-  } str_pos_act_PWORK;                 /* '<S79>/str_pos_act' */
+  } str_pos_act_PWORK;                 /* '<S94>/str_pos_act' */
 
   struct {
     void *LoggedData;
-  } sus_pos_act_PWORK;                 /* '<S79>/sus_pos_act' */
+  } sus_pos_act_PWORK;                 /* '<S94>/sus_pos_act' */
 
   struct {
     void *LoggedData;
-  } dri_vel_act_PWORK;                 /* '<S79>/dri_vel_act' */
+  } dri_vel_act_PWORK;                 /* '<S94>/dri_vel_act' */
 
   struct {
     void *LoggedData;
-  } dri_current_act_PWORK;             /* '<S79>/dri_current_act' */
+  } dri_current_act_PWORK;             /* '<S94>/dri_current_act' */
 
   struct {
     void *LoggedData;
-  } Sensor_wheel_torque_PWORK;         /* '<S79>/Sensor_wheel_torque' */
+  } Sensor_wheel_torque_PWORK;         /* '<S94>/Sensor_wheel_torque' */
 
   struct {
     void *LoggedData;
-  } str_load_torque_PWORK;             /* '<S79>/str_load_torque' */
+  } str_load_torque_PWORK;             /* '<S94>/str_load_torque' */
 
   struct {
     void *LoggedData;
-  } str_vel_act_PWORK;                 /* '<S79>/str_vel_act' */
+  } str_vel_act_PWORK;                 /* '<S94>/str_vel_act' */
 
   struct {
     void *LoggedData;
-  } sus_current_act_PWORK;             /* '<S79>/sus_current_act' */
+  } sus_current_act_PWORK;             /* '<S94>/sus_current_act' */
 
   struct {
     void *LoggedData;
-  } str_current_act_PWORK;             /* '<S79>/str_current_act' */
+  } str_current_act_PWORK;             /* '<S94>/str_current_act' */
 
   struct {
     void *LoggedData;
-  } sus_load_torque_PWORK;             /* '<S79>/sus_load_torque' */
+  } sus_load_torque_PWORK;             /* '<S94>/sus_load_torque' */
 
   struct {
     void *LoggedData;
-  } Sensor_wheel_angacc_PWORK;         /* '<S79>/Sensor_wheel_angacc' */
+  } Sensor_wheel_angacc_PWORK;         /* '<S94>/Sensor_wheel_angacc' */
 
   struct {
     void *LoggedData;
-  } Sensor_wheel_angvel_PWORK;         /* '<S79>/Sensor_wheel_angvel' */
+  } Sensor_wheel_angvel_PWORK;         /* '<S94>/Sensor_wheel_angvel' */
 
   struct {
     void *LoggedData;
-  } dri_target_vel_PWORK;              /* '<S80>/dri_target_vel' */
+  } dri_target_vel_PWORK;              /* '<S95>/dri_target_vel' */
 
   struct {
     void *LoggedData;
-  } str_target_pos_PWORK;              /* '<S80>/str_target_pos' */
+  } str_target_pos_PWORK;              /* '<S95>/str_target_pos' */
 
   struct {
     void *LoggedData;
-  } sus_target_pos_PWORK;              /* '<S80>/sus_target_pos' */
+  } sus_target_pos_PWORK;              /* '<S95>/sus_target_pos' */
 
   struct {
     void *LoggedData;
-  } Acc_x_PWORK;                       /* '<S81>/Acc_x' */
+  } Acc_x_PWORK;                       /* '<S96>/Acc_x' */
 
   struct {
     void *LoggedData;
-  } grf_x_PWORK;                       /* '<S81>/grf_x' */
+  } grf_x_PWORK;                       /* '<S96>/grf_x' */
 
   struct {
     void *LoggedData;
-  } grf_y_PWORK;                       /* '<S81>/grf_y' */
+  } grf_y_PWORK;                       /* '<S96>/grf_y' */
 
   int_T SFunction1_IWORK[2];           /* '<S9>/S-Function1' */
   struct {
     int_T PrevIndex;
   } FromWorkspace_IWORK;               /* '<S39>/From Workspace' */
 
-  int8_T If_ActiveSubsystem;           /* '<S87>/If' */
+  int8_T If_ActiveSubsystem;           /* '<S102>/If' */
   boolean_T current_f_not_empty;       /* '<S43>/MATLAB Function' */
 } DW_test_T;
 
-/* Parameters for system: '<S87>/Torque Mode' */
+/* Parameters for system: '<S102>/Torque Mode' */
 struct P_TorqueMode_test_T_ {
   real_T Constant_Value;               /* Expression: 10
-                                        * Referenced by: '<S89>/Constant'
+                                        * Referenced by: '<S104>/Constant'
                                         */
   real_T Constant1_Value;              /* Expression: 1
-                                        * Referenced by: '<S89>/Constant1'
+                                        * Referenced by: '<S104>/Constant1'
                                         */
 };
 
@@ -632,22 +681,24 @@ struct P_test_T_ {
                                         *   '<S16>/Constant'
                                         *   '<S16>/gain'
                                         *   '<S39>/Gain1'
+                                        *   '<S69>/Constant1'
                                         *   '<S58>/Constant'
                                         *   '<S58>/gain'
                                         *   '<S61>/Constant'
                                         *   '<S61>/gain'
-                                        *   '<S69>/Constant1'
+                                        *   '<S78>/Constant1'
+                                        *   '<S89>/gain'
                                         *   '<S51>/Constant'
                                         *   '<S51>/gain'
                                         *   '<S55>/Constant'
                                         *   '<S55>/gain'
-                                        *   '<S71>/gain'
-                                        *   '<S72>/Constant'
-                                        *   '<S72>/gain'
-                                        *   '<S73>/gain'
-                                        *   '<S74>/Constant'
-                                        *   '<S74>/gain'
-                                        *   '<S75>/gain'
+                                        *   '<S80>/gain'
+                                        *   '<S81>/Constant'
+                                        *   '<S81>/gain'
+                                        *   '<S82>/gain'
+                                        *   '<S83>/Constant'
+                                        *   '<S83>/gain'
+                                        *   '<S84>/gain'
                                         */
   real_T Constant3_Value;              /* Expression: 1
                                         * Referenced by: '<S39>/Constant3'
@@ -656,16 +707,16 @@ struct P_test_T_ {
                                         * Referenced by: '<S39>/Constant2'
                                         */
   real_T Constant1_Value;              /* Expression: 2*pi
-                                        * Referenced by: '<S83>/Constant1'
+                                        * Referenced by: '<S98>/Constant1'
                                         */
   real_T Constant5_Value;              /* Expression: 60
-                                        * Referenced by: '<S83>/Constant5'
+                                        * Referenced by: '<S98>/Constant5'
                                         */
   real_T N_dri_Value;                  /* Expression: 190
-                                        * Referenced by: '<S83>/N_dri'
+                                        * Referenced by: '<S98>/N_dri'
                                         */
   real_T Constant_Value;               /* Expression: 9
-                                        * Referenced by: '<S91>/Constant'
+                                        * Referenced by: '<S106>/Constant'
                                         */
   real_T Saturation_UpperSat;          /* Expression: 0.5
                                         * Referenced by: '<Root>/Saturation'
@@ -863,7 +914,7 @@ struct P_test_T_ {
                                         * Referenced by: '<S44>/Constant4'
                                         */
   real_T Merge1_InitialOutput;         /* Computed Parameter: Merge1_InitialOutput
-                                        * Referenced by: '<S87>/Merge1'
+                                        * Referenced by: '<S102>/Merge1'
                                         */
   real_T Constant_Value_k;             /* Expression: 0
                                         * Referenced by: '<S43>/Constant'
@@ -874,7 +925,7 @@ struct P_test_T_ {
   real_T dri_torque_ref_freq_Value;    /* Expression: 0.1
                                         * Referenced by: '<S8>/dri_torque_ref_freq'
                                         */
-  real_T dri_torque_ref_mag_Value;     /* Expression: 0.01
+  real_T dri_torque_ref_mag_Value;     /* Expression: 0
                                         * Referenced by: '<S8>/dri_torque_ref_mag'
                                         */
   real_T sampletime_WtEt_m;            /* Computed Parameter: sampletime_WtEt_m
@@ -929,7 +980,7 @@ struct P_test_T_ {
                                         * Referenced by: '<S39>/Gain'
                                         */
   real_T Constant_Value_ju;            /* Expression: 55.08
-                                        * Referenced by: '<S70>/Constant'
+                                        * Referenced by: '<S79>/Constant'
                                         */
   real_T wheel_Jn_Value;               /* Expression: 0.4
                                         * Referenced by: '<S8>/wheel_Jn'
@@ -938,103 +989,103 @@ struct P_test_T_ {
                                         * Referenced by: '<S8>/dri_FF_OnOff'
                                         */
   real_T d_InitialCondition_c;         /* Expression: 0
-                                        * Referenced by: '<S73>/d'
+                                        * Referenced by: '<S82>/d'
                                         */
   real_T d1_InitialCondition_i;        /* Expression: 0
-                                        * Referenced by: '<S73>/d1'
+                                        * Referenced by: '<S82>/d1'
                                         */
   real_T wheel_Bn_Value;               /* Expression: 2.016
                                         * Referenced by: '<S8>/wheel_Bn'
                                         */
   real_T d1_InitialCondition_gm;       /* Expression: 0
-                                        * Referenced by: '<S74>/d1'
+                                        * Referenced by: '<S83>/d1'
                                         */
   real_T Constant1_Value_k;            /* Expression: 1
-                                        * Referenced by: '<S74>/Constant1'
+                                        * Referenced by: '<S83>/Constant1'
                                         */
   real_T dri_FF_CutOff_Value;          /* Expression: 0.1
                                         * Referenced by: '<S8>/dri_FF_CutOff'
                                         */
   real_T gain2_Gain_n;                 /* Expression: 2*pi
-                                        * Referenced by: '<S74>/gain2'
+                                        * Referenced by: '<S83>/gain2'
                                         */
   real_T gain1_Gain_e;                 /* Expression: 2
-                                        * Referenced by: '<S74>/gain1'
+                                        * Referenced by: '<S83>/gain1'
                                         */
   real_T d_InitialCondition_j;         /* Expression: 0
-                                        * Referenced by: '<S74>/d'
+                                        * Referenced by: '<S83>/d'
                                         */
   real_T dri_PID_zeta_Value;           /* Expression: 1
                                         * Referenced by: '<S8>/dri_PID_zeta'
                                         */
   real_T Saturation_UpperSat_c;        /* Expression: 3
-                                        * Referenced by: '<S69>/Saturation'
+                                        * Referenced by: '<S78>/Saturation'
                                         */
   real_T Saturation_LowerSat_e;        /* Expression: 0.5
-                                        * Referenced by: '<S69>/Saturation'
+                                        * Referenced by: '<S78>/Saturation'
                                         */
   real_T gain1_Gain_g;                 /* Expression: 2
-                                        * Referenced by: '<S69>/gain 1'
+                                        * Referenced by: '<S78>/gain 1'
                                         */
   real_T dri_PID_CutOff_Value;         /* Expression: 0.1
                                         * Referenced by: '<S8>/dri_PID_CutOff'
                                         */
   real_T gain_Gain;                    /* Expression: 2*pi
-                                        * Referenced by: '<S69>/gain '
+                                        * Referenced by: '<S78>/gain '
                                         */
   real_T dri_PID_OnOff_Value;          /* Expression: 0
                                         * Referenced by: '<S8>/dri_PID_OnOff'
                                         */
   real_T Constant_Value_n;             /* Expression: 0
-                                        * Referenced by: '<S64>/Constant'
+                                        * Referenced by: '<S65>/Constant'
                                         */
   real_T d1_InitialCondition_a;        /* Expression: 0
-                                        * Referenced by: '<S75>/d1'
+                                        * Referenced by: '<S84>/d1'
                                         */
   real_T d_InitialCondition_m;         /* Expression: 0
-                                        * Referenced by: '<S75>/d'
+                                        * Referenced by: '<S84>/d'
                                         */
   real_T Delay_InitialCondition;       /* Expression: 0
-                                        * Referenced by: '<S67>/Delay'
+                                        * Referenced by: '<S76>/Delay'
                                         */
   real_T dri_DOB_OnOff_Value;          /* Expression: 0
                                         * Referenced by: '<S8>/dri_DOB_OnOff'
                                         */
   real_T d_InitialCondition_d;         /* Expression: 0
-                                        * Referenced by: '<S71>/d'
+                                        * Referenced by: '<S80>/d'
                                         */
   real_T d1_InitialCondition_j;        /* Expression: 0
-                                        * Referenced by: '<S71>/d1'
+                                        * Referenced by: '<S80>/d1'
                                         */
   real_T d1_InitialCondition_c;        /* Expression: 0
-                                        * Referenced by: '<S72>/d1'
+                                        * Referenced by: '<S81>/d1'
                                         */
   real_T Constant1_Value_ax;           /* Expression: 1
-                                        * Referenced by: '<S72>/Constant1'
+                                        * Referenced by: '<S81>/Constant1'
                                         */
   real_T dri_DOB_CutOff_Value;         /* Expression: 0.1
                                         * Referenced by: '<S8>/dri_DOB_CutOff'
                                         */
   real_T gain2_Gain_m;                 /* Expression: 2*pi
-                                        * Referenced by: '<S72>/gain2'
+                                        * Referenced by: '<S81>/gain2'
                                         */
   real_T gain1_Gain_an;                /* Expression: 2
-                                        * Referenced by: '<S72>/gain1'
+                                        * Referenced by: '<S81>/gain1'
                                         */
   real_T d_InitialCondition_cw;        /* Expression: 0
-                                        * Referenced by: '<S72>/d'
+                                        * Referenced by: '<S81>/d'
                                         */
   real_T Constant2_Value_p;            /* Expression: 190
-                                        * Referenced by: '<S70>/Constant2'
+                                        * Referenced by: '<S79>/Constant2'
                                         */
   real_T Constant1_Value_m;            /* Expression: 1000
-                                        * Referenced by: '<S70>/Constant1'
+                                        * Referenced by: '<S79>/Constant1'
                                         */
   real_T Gain1_Gain_f;                 /* Expression: -1
-                                        * Referenced by: '<S70>/Gain1'
+                                        * Referenced by: '<S79>/Gain1'
                                         */
   real_T Gain_Gain_c;                  /* Expression: 1000
-                                        * Referenced by: '<S70>/Gain'
+                                        * Referenced by: '<S79>/Gain'
                                         */
   real_T str_pos_ref_ratelimit_Value;  /* Expression: 10
                                         * Referenced by: '<S8>/str_pos_ref_ratelimit'
@@ -1081,32 +1132,83 @@ struct P_test_T_ {
   real_T Constant_Value_l;             /* Expression: 360
                                         * Referenced by: '<S41>/Constant'
                                         */
-  real_T Constant2_Value_i;            /* Expression: 360
-                                        * Referenced by: '<S79>/Constant2'
+  real_T Constant_Value_a;             /* Expression: 55.08
+                                        * Referenced by: '<S70>/Constant'
+                                        */
+  real_T str_PID_zeta_Value;           /* Expression: 1
+                                        * Referenced by: '<S8>/str_PID_zeta'
+                                        */
+  real_T Saturation_UpperSat_h;        /* Expression: 3
+                                        * Referenced by: '<S69>/Saturation'
+                                        */
+  real_T Saturation_LowerSat_o;        /* Expression: 0.5
+                                        * Referenced by: '<S69>/Saturation'
+                                        */
+  real_T gain1_Gain_fa;                /* Expression: 2
+                                        * Referenced by: '<S69>/gain 1'
+                                        */
+  real_T str_PID_CutOff_Value;         /* Expression: 0.1
+                                        * Referenced by: '<S8>/str_PID_CutOff'
+                                        */
+  real_T gain_Gain_l;                  /* Expression: 2*pi
+                                        * Referenced by: '<S69>/gain '
+                                        */
+  real_T steer_Jn_Value;               /* Expression: 2.64
+                                        * Referenced by: '<S8>/steer_Jn'
+                                        */
+  real_T steer_Bn_Value;               /* Expression: 18.5
+                                        * Referenced by: '<S8>/steer_Bn'
+                                        */
+  real_T str_PID_OnOff_Value;          /* Expression: 0
+                                        * Referenced by: '<S8>/str_PID_OnOff'
+                                        */
+  real_T d1_InitialCondition_h;        /* Expression: 0
+                                        * Referenced by: '<S89>/d1'
+                                        */
+  real_T d_InitialCondition_h;         /* Expression: 0
+                                        * Referenced by: '<S89>/d'
+                                        */
+  real_T Constant2_Value_i;            /* Expression: 315
+                                        * Referenced by: '<S70>/Constant2'
+                                        */
+  real_T Constant1_Value_axs;          /* Expression: 1000
+                                        * Referenced by: '<S70>/Constant1'
+                                        */
+  real_T Gain1_Gain_l;                 /* Expression: -1
+                                        * Referenced by: '<S70>/Gain1'
+                                        */
+  real_T Gain_Gain_k;                  /* Expression: 1000
+                                        * Referenced by: '<S70>/Gain'
+                                        */
+  real_T Constant1_Value_l;            /* Expression: 1000
+                                        * Referenced by: '<S6>/Constant1'
+                                        */
+  real_T Constant2_Value_il;           /* Expression: 360
+                                        * Referenced by: '<S94>/Constant2'
                                         */
   real_T Constant3_Value_o;            /* Expression: 360
-                                        * Referenced by: '<S79>/Constant3'
+                                        * Referenced by: '<S94>/Constant3'
                                         */
   real_T Constant1_Value_e;            /* Expression: 0
-                                        * Referenced by: '<S80>/Constant1'
+                                        * Referenced by: '<S95>/Constant1'
                                         */
   real_T Constant2_Value_m;            /* Expression: 360
-                                        * Referenced by: '<S80>/Constant2'
+                                        * Referenced by: '<S95>/Constant2'
                                         */
   real_T Constant3_Value_b;            /* Expression: 360
-                                        * Referenced by: '<S80>/Constant3'
+                                        * Referenced by: '<S95>/Constant3'
                                         */
   real_T acc_bias_Value;               /* Expression: 0
                                         * Referenced by: '<S8>/acc_bias'
                                         */
   real_T Constant_Value_gq;            /* Expression: 300
-                                        * Referenced by: '<S85>/Constant'
+                                        * Referenced by: '<S100>/Constant'
                                         */
   real_T V_Value;                      /* Expression: 0.0161
-                                        * Referenced by: '<S85>/V'
+                                        * Referenced by: '<S100>/V'
                                         */
   real_T AmpleGain_Value;              /* Expression: 600
-                                        * Referenced by: '<S85>/Ample Gain'
+                                        * Referenced by: '<S100>/Ample Gain'
                                         */
   real_T Load_cell_Gain_Value;         /* Expression: 1
                                         * Referenced by: '<S8>/Load_cell_Gain'
@@ -1115,13 +1217,13 @@ struct P_test_T_ {
                                         * Referenced by: '<S8>/Grf_x_bias'
                                         */
   real_T Constant_Value_i;             /* Expression: 300
-                                        * Referenced by: '<S86>/Constant'
+                                        * Referenced by: '<S101>/Constant'
                                         */
   real_T V_Value_d;                    /* Expression: 0.0161
-                                        * Referenced by: '<S86>/V'
+                                        * Referenced by: '<S101>/V'
                                         */
   real_T AmpleGain_Value_n;            /* Expression: 600
-                                        * Referenced by: '<S86>/Ample Gain'
+                                        * Referenced by: '<S101>/Ample Gain'
                                         */
   real_T Grf_y_bias_Value;             /* Expression: 0
                                         * Referenced by: '<S8>/Grf_y_bias'
@@ -1132,6 +1234,12 @@ struct P_test_T_ {
   real_T cpt_dri_Value;                /* Expression: 2048*4
                                         * Referenced by: '<S8>/cpt_dri'
                                         */
+  real_T str_DOB_OnOff_Value;          /* Expression: 0
+                                        * Referenced by: '<S8>/str_DOB_OnOff'
+                                        */
+  real_T str_DOB_CutOff_Value;         /* Expression: 0
+                                        * Referenced by: '<S8>/str_DOB_CutOff'
+                                        */
   uint32_T Delay1_DelayLength;         /* Computed Parameter: Delay1_DelayLength
                                         * Referenced by: '<S8>/Delay1'
                                         */
@@ -1139,11 +1247,11 @@ struct P_test_T_ {
                                         * Referenced by: '<S8>/Delay2'
                                         */
   uint32_T Delay_DelayLength;          /* Computed Parameter: Delay_DelayLength
-                                        * Referenced by: '<S67>/Delay'
+                                        * Referenced by: '<S76>/Delay'
                                         */
-  P_TorqueMode_test_T ID_Mode;         /* '<S87>/ID_Mode' */
-  P_TorqueMode_test_T TorqueMode1;     /* '<S87>/Torque Mode1' */
-  P_TorqueMode_test_T TorqueMode;      /* '<S87>/Torque Mode' */
+  P_TorqueMode_test_T ID_Mode;         /* '<S102>/ID_Mode' */
+  P_TorqueMode_test_T TorqueMode1;     /* '<S102>/Torque Mode1' */
+  P_TorqueMode_test_T TorqueMode;      /* '<S102>/Torque Mode' */
 };
 
 /* Real-time Model Data Structure */
@@ -1265,33 +1373,48 @@ extern RT_MODEL_test_T *const test_M;
  * '<S61>'  : 'test/_Reference/_sus_motor_ref/LPF2'
  * '<S62>'  : 'test/_Reference/_sus_motor_ref/Rate Limiter Dynamic'
  * '<S63>'  : 'test/_Reference/_sus_motor_ref/Rate Limiter Dynamic/Saturation Dynamic'
- * '<S64>'  : 'test/__Controller/Driving Wheel Control'
- * '<S65>'  : 'test/__Controller/If Action Subsystem'
- * '<S66>'  : 'test/__Controller/If Action Subsystem1'
- * '<S67>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)'
- * '<S68>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)'
- * '<S69>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1'
- * '<S70>'  : 'test/__Controller/Driving Wheel Control/Subsystem'
- * '<S71>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)/Dot2'
- * '<S72>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)/LPF'
- * '<S73>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)/Dot2'
- * '<S74>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)/LPF'
- * '<S75>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1/Integrator1'
- * '<S76>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1/Saturation Dynamic'
- * '<S77>'  : 'test/__Controller/Driving Wheel Control/Subsystem/Saturation Dynamic'
- * '<S78>'  : 'test/__Data Plotting/__Drive_Ctrl_Plot'
- * '<S79>'  : 'test/__Data Plotting/__Motor_Feedback_Plot'
- * '<S80>'  : 'test/__Data Plotting/__Reference_Plot'
- * '<S81>'  : 'test/__Data Plotting/__Sensor_Plot'
- * '<S82>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem4'
- * '<S83>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem5'
- * '<S84>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem6'
- * '<S85>'  : 'test/__Data Plotting/__Sensor_Plot/Subsystem'
- * '<S86>'  : 'test/__Data Plotting/__Sensor_Plot/Subsystem1'
- * '<S87>'  : 'test/__System_Setting/Subsystem'
- * '<S88>'  : 'test/__System_Setting/Subsystem/ID_Mode'
- * '<S89>'  : 'test/__System_Setting/Subsystem/Torque Mode'
- * '<S90>'  : 'test/__System_Setting/Subsystem/Torque Mode1'
- * '<S91>'  : 'test/__System_Setting/Subsystem/Velocity Mode'
+ * '<S64>'  : 'test/__Controller/DOB(theta)'
+ * '<S65>'  : 'test/__Controller/Driving Wheel Control'
+ * '<S66>'  : 'test/__Controller/If Action Subsystem'
+ * '<S67>'  : 'test/__Controller/If Action Subsystem1'
+ * '<S68>'  : 'test/__Controller/Lag compensator(zeta)'
+ * '<S69>'  : 'test/__Controller/Poleplacement(PI)1'
+ * '<S70>'  : 'test/__Controller/Steering system'
+ * '<S71>'  : 'test/__Controller/Subsystem1'
+ * '<S72>'  : 'test/__Controller/DOB(theta)/Dot'
+ * '<S73>'  : 'test/__Controller/DOB(theta)/Dot1'
+ * '<S74>'  : 'test/__Controller/DOB(theta)/Dot2'
+ * '<S75>'  : 'test/__Controller/DOB(theta)/Second order LPF'
+ * '<S76>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)'
+ * '<S77>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)'
+ * '<S78>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1'
+ * '<S79>'  : 'test/__Controller/Driving Wheel Control/Subsystem'
+ * '<S80>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)/Dot2'
+ * '<S81>'  : 'test/__Controller/Driving Wheel Control/DOB(omega)/LPF'
+ * '<S82>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)/Dot2'
+ * '<S83>'  : 'test/__Controller/Driving Wheel Control/Feedforward(omega)/LPF'
+ * '<S84>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1/Integrator1'
+ * '<S85>'  : 'test/__Controller/Driving Wheel Control/Poleplacement(PI)1/Saturation Dynamic'
+ * '<S86>'  : 'test/__Controller/Driving Wheel Control/Subsystem/Saturation Dynamic'
+ * '<S87>'  : 'test/__Controller/Lag compensator(zeta)/Dot1'
+ * '<S88>'  : 'test/__Controller/Lag compensator(zeta)/a//(s+p)'
+ * '<S89>'  : 'test/__Controller/Poleplacement(PI)1/Integrator1'
+ * '<S90>'  : 'test/__Controller/Poleplacement(PI)1/Saturation Dynamic'
+ * '<S91>'  : 'test/__Controller/Steering system/Saturation Dynamic'
+ * '<S92>'  : 'test/__Controller/Subsystem1/Saturation Dynamic'
+ * '<S93>'  : 'test/__Data Plotting/__Drive_Ctrl_Plot'
+ * '<S94>'  : 'test/__Data Plotting/__Motor_Feedback_Plot'
+ * '<S95>'  : 'test/__Data Plotting/__Reference_Plot'
+ * '<S96>'  : 'test/__Data Plotting/__Sensor_Plot'
+ * '<S97>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem4'
+ * '<S98>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem5'
+ * '<S99>'  : 'test/__Data Plotting/__Reference_Plot/If Action Subsystem6'
+ * '<S100>' : 'test/__Data Plotting/__Sensor_Plot/Subsystem'
+ * '<S101>' : 'test/__Data Plotting/__Sensor_Plot/Subsystem1'
+ * '<S102>' : 'test/__System_Setting/Subsystem'
+ * '<S103>' : 'test/__System_Setting/Subsystem/ID_Mode'
+ * '<S104>' : 'test/__System_Setting/Subsystem/Torque Mode'
+ * '<S105>' : 'test/__System_Setting/Subsystem/Torque Mode1'
+ * '<S106>' : 'test/__System_Setting/Subsystem/Velocity Mode'
  */
 #endif                                 /* RTW_HEADER_test_h_ */

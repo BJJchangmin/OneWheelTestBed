@@ -413,6 +413,48 @@
 							<LinkedItem type="key">214963288</LinkedItem>
 						</item>
 						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">159569320</UniqueID>
+							<LinkedItem type="key">103907264</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">413929036</UniqueID>
+							<LinkedItem type="key">399094518</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">306950443</UniqueID>
+							<LinkedItem type="key">840992092</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">691942086</UniqueID>
+							<LinkedItem type="key">457303273</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">165648622</UniqueID>
+							<LinkedItem type="key">976797282</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">790195434</UniqueID>
+							<LinkedItem type="key">738074826</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">940902801</UniqueID>
+							<LinkedItem type="key">573753937</LinkedItem>
+						</item>
+						<item>
 							<Component type="key">DataSetManager</Component>
 							<Name type="key">Data Sets</Name>
 							<DisplayName type="key">Data Sets</DisplayName>
@@ -431,8 +473,14 @@
 						<item>
 							<Component type="key">MeasureDataManagement</Component>
 							<Flags type="key">1376</Flags>
-							<UniqueID type="key">159569320</UniqueID>
-							<LinkedItem type="key">103907264</LinkedItem>
+							<UniqueID type="key">923350275</UniqueID>
+							<LinkedItem type="key">158764659</LinkedItem>
+						</item>
+						<item>
+							<Component type="key">MeasureDataManagement</Component>
+							<Flags type="key">1376</Flags>
+							<UniqueID type="key">1011543908</UniqueID>
+							<LinkedItem type="key">834113048</LinkedItem>
 						</item>
 					</item>
 				</item>
@@ -1453,12 +1501,12 @@ ControlDesk version: 6.2</ItemInfoLog>
 					<EntityID type="key">{FF3F098E-6114-4E20-9087-A47C6D4A207F}</EntityID>
 					<ItemInfoDate type="key">2025-07-16 오후 8:00:15</ItemInfoDate>
 					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
 					<ItemInfoLog type="key">
 Software revision: test.sdf, test.ppc
 Variable description: test.sdf
     Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
 ControlDesk version: 6.2</ItemInfoLog>
-					<ItemInfoDescr type="key"/>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
 				</item>
@@ -1473,12 +1521,12 @@ ControlDesk version: 6.2</ItemInfoLog>
 					<EntityID type="key">{8280DC66-3455-46B0-A802-2B015F2818B6}</EntityID>
 					<ItemInfoDate type="key">2025-07-16 오후 8:05:58</ItemInfoDate>
 					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
 					<ItemInfoLog type="key">
 Software revision: test.sdf, test.ppc
 Variable description: test.sdf
     Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
 ControlDesk version: 6.2</ItemInfoLog>
-					<ItemInfoDescr type="key"/>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
 				</item>
@@ -1492,6 +1540,166 @@ ControlDesk version: 6.2</ItemInfoLog>
 					<UniqueID type="key">103907264</UniqueID>
 					<EntityID type="key">{327856B1-49EC-48E6-8672-2918F1586E90}</EntityID>
 					<ItemInfoDate type="key">2025-07-16 오후 8:18:34</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_048.mf4</Name>
+					<DisplayName type="key">rover_048.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">399094518</UniqueID>
+					<EntityID type="key">{091871F7-91BA-4F30-AEC0-F0A1E5B8E6E0}</EntityID>
+					<ItemInfoDate type="key">2025-07-17 오후 3:32:46</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_049.mf4</Name>
+					<DisplayName type="key">rover_049.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">840992092</UniqueID>
+					<EntityID type="key">{13BFF9A6-6F11-4587-A857-E4BEB8C48F7D}</EntityID>
+					<ItemInfoDate type="key">2025-07-17 오후 3:43:09</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_050.mf4</Name>
+					<DisplayName type="key">rover_050.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">457303273</UniqueID>
+					<EntityID type="key">{F1B1EE90-1766-43A6-AF35-953E63DAE4E0}</EntityID>
+					<ItemInfoDate type="key">2025-07-17 오후 3:49:57</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_051.mf4</Name>
+					<DisplayName type="key">rover_051.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">976797282</UniqueID>
+					<EntityID type="key">{7180D766-B5C0-4244-B931-AF460BB92219}</EntityID>
+					<ItemInfoDate type="key">2025-07-17 오후 3:56:20</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_052.mf4</Name>
+					<DisplayName type="key">rover_052.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">738074826</UniqueID>
+					<EntityID type="key">{5924ED09-1E3E-49B0-AAE9-2C02B6AFEBD0}</EntityID>
+					<ItemInfoDate type="key">2025-07-20 오후 7:36:13</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_053.mf4</Name>
+					<DisplayName type="key">rover_053.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">573753937</UniqueID>
+					<EntityID type="key">{94DB64B3-B59B-427F-8AF7-DBF96A8C6B2B}</EntityID>
+					<ItemInfoDate type="key">2025-07-20 오후 7:42:43</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_054.mf4</Name>
+					<DisplayName type="key">rover_054.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">158764659</UniqueID>
+					<EntityID type="key">{8CEF7ECF-0E1D-4CF2-8774-851AD876F65F}</EntityID>
+					<ItemInfoDate type="key">2025-07-20 오후 7:53:02</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoLog type="key">
+Software revision: test.sdf, test.ppc
+Variable description: test.sdf
+    Platform / Device: Platform [MicroAutoBox, assigned to 'ds1401']
+ControlDesk version: 6.2</ItemInfoLog>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">MeasureDataManagement</Component>
+					<Name type="key">rover_055.mf4</Name>
+					<DisplayName type="key">rover_055.mf4</DisplayName>
+					<Path type="key">.\Measurement Data</Path>
+					<Flags type="key">1088</Flags>
+					<Type type="key">9</Type>
+					<UniqueID type="key">834113048</UniqueID>
+					<EntityID type="key">{BD300D19-6984-4451-9F33-01DA0FFAAA9E}</EntityID>
+					<ItemInfoDate type="key">2025-07-20 오후 7:56:49</ItemInfoDate>
 					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 					<ItemInfoLog type="key">
 Software revision: test.sdf, test.ppc
@@ -1723,6 +1931,30 @@ ControlDesk version: 6.2</ItemInfoLog>
 			<NextUniqueKey type="key">4</NextUniqueKey>
 			<SignalList>
 				<Variable>
+					<Name type="key">Model Root/__Controller/Closed_ID_Toruqe/In1</Name>
+					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Model Root/__Controller/From11/Out1</Name>
+					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Model Root/__Controller/Goto3/In1</Name>
+					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
 					<Name type="key">Model Root/__Data Plotting/__Motor_Feedback_Plot/dri_current_act/In1</Name>
 					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
 					<Active type="key">-1</Active>
@@ -1811,14 +2043,6 @@ ControlDesk version: 6.2</ItemInfoLog>
 					</Signal>
 				</Variable>
 				<Variable>
-					<Name type="key">Model Root/__Data Plotting/__Reference_Plot/str_target_pos/In1</Name>
-					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
-					<Active type="key">-1</Active>
-					<Signal>
-						<Raster type="key">HostService</Raster>
-					</Signal>
-				</Variable>
-				<Variable>
 					<Name type="key">Model Root/__Data Plotting/__Reference_Plot/sus_target_pos/In1</Name>
 					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
 					<Active type="key">-1</Active>
@@ -1875,19 +2099,11 @@ ControlDesk version: 6.2</ItemInfoLog>
 					</Signal>
 				</Variable>
 				<Variable>
-					<Name type="key">Model Root/__System_Setting/wheel_Bn/Value</Name>
+					<Name type="key">Model Root/_Reference/_dri_motor_ref/Driving_Torque_Ref/Goto/In1</Name>
 					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
 					<Active type="key">-1</Active>
 					<Signal>
-						<Raster type="key">OnChange</Raster>
-					</Signal>
-				</Variable>
-				<Variable>
-					<Name type="key">Model Root/__System_Setting/wheel_Jn/Value</Name>
-					<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
-					<Active type="key">-1</Active>
-					<Signal>
-						<Raster type="key">OnChange</Raster>
+						<Raster type="key">HostService</Raster>
 					</Signal>
 				</Variable>
 				<Variable>
@@ -2040,13 +2256,40 @@ ControlDesk version: 6.2</ItemInfoLog>
 						<AutomaticExportFolder type="key">C:\Users\USER\Desktop\YCM\Experiment_Data\250707</AutomaticExportFolder>
 						<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
 						<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
-						<AutomaticNamingStartIndex type="key">48</AutomaticNamingStartIndex>
+						<AutomaticNamingStartIndex type="key">56</AutomaticNamingStartIndex>
 						<Description type="key"/>
 						<FileNamePrefix type="key">rover_</FileNamePrefix>
 						<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
 						<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
 					</StorageInformation>
 					<SignalList>
+						<Variable>
+							<Name type="key">Model Root/__Controller/Closed_ID_Toruqe/In1</Name>
+							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Model Root/__Controller/From11/Out1</Name>
+							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Model Root/__Controller/Goto3/In1</Name>
+							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
 						<Variable>
 							<Name type="key">Model Root/__Data Plotting/__Motor_Feedback_Plot/dri_current_act/In1</Name>
 							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
@@ -2147,15 +2390,6 @@ ControlDesk version: 6.2</ItemInfoLog>
 							</Signal>
 						</Variable>
 						<Variable>
-							<Name type="key">Model Root/__Data Plotting/__Reference_Plot/str_target_pos/In1</Name>
-							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
-							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
-							<Recorded type="key">-1</Recorded>
-							<Signal>
-								<Raster type="key">HostService</Raster>
-							</Signal>
-						</Variable>
-						<Variable>
 							<Name type="key">Model Root/__Data Plotting/__Reference_Plot/sus_target_pos/In1</Name>
 							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
@@ -2219,21 +2453,12 @@ ControlDesk version: 6.2</ItemInfoLog>
 							</Signal>
 						</Variable>
 						<Variable>
-							<Name type="key">Model Root/__System_Setting/wheel_Bn/Value</Name>
+							<Name type="key">Model Root/_Reference/_dri_motor_ref/Driving_Torque_Ref/Goto/In1</Name>
 							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
 							<Recorded type="key">-1</Recorded>
 							<Signal>
-								<Raster type="key">OnChange</Raster>
-							</Signal>
-						</Variable>
-						<Variable>
-							<Name type="key">Model Root/__System_Setting/wheel_Jn/Value</Name>
-							<Platform type="key">d6948ee7-cbc7-400d-82a6-0b7f2b093dfa</Platform>
-							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
-							<Recorded type="key">-1</Recorded>
-							<Signal>
-								<Raster type="key">OnChange</Raster>
+								<Raster type="key">HostService</Raster>
 							</Signal>
 						</Variable>
 						<Variable>

@@ -345,6 +345,33 @@ Original file added from ..\..\Simulink\test.sdf [2025-07-16 07:37:37 (UTC)]
 
 Variable description reloaded on 16.07.2025 20:12:53 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
 Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
+
+Variable description reloaded on 17.07.2025 14:34:20 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 05:32:27 (UTC)]
+
+Variable description reloaded on 17.07.2025 14:38:12 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 05:36:56 (UTC)]
+
+Variable description reloaded on 17.07.2025 14:43:54 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 05:43:43 (UTC)]
+
+Variable description reloaded on 17.07.2025 15:19:46 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 06:19:32 (UTC)]
+
+Variable description reloaded on 17.07.2025 15:24:03 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 06:23:20 (UTC)]
+
+Variable description reloaded on 17.07.2025 15:38:58 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-17 06:37:49 (UTC)]
+
+Variable description reloaded on 20.07.2025 19:18:10 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-20 10:02:25 (UTC)]
+
+Variable description reloaded on 20.07.2025 19:30:07 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-20 10:29:51 (UTC)]
+
+Variable description reloaded on 20.07.2025 19:49:16 (C:\Users\USER\Desktop\dSPACE_Test\Simulink\test.sdf)
+Original file added from ..\..\Simulink\test.sdf [2025-07-20 10:49:01 (UTC)]
 </ItemInfoLog>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">USER</ItemInfoAuthor>
@@ -356,9 +383,9 @@ Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">1072002902</UniqueID>
-						<EntityID type="key">{882159B3-138C-4B49-A807-73271500CD8B}</EntityID>
-						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<UniqueID type="key">1038724717</UniqueID>
+						<EntityID type="key">{2787D3D7-949F-4DBD-9EDD-D71ECCBB093F}</EntityID>
+						<ItemInfoDate type="key">2025-07-20 오후 7:49:16</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -372,9 +399,9 @@ Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">308243816</UniqueID>
-						<EntityID type="key">{9E554FF8-EDB8-46AF-A946-1F90EFE794C5}</EntityID>
-						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<UniqueID type="key">196605965</UniqueID>
+						<EntityID type="key">{D4998C64-DFC3-4C52-AE82-D89F1F9050F9}</EntityID>
+						<ItemInfoDate type="key">2025-07-20 오후 7:49:16</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -388,9 +415,9 @@ Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">30</Type>
-						<UniqueID type="key">409683467</UniqueID>
-						<EntityID type="key">{788FCB54-865C-4C6C-8607-143DA8827607}</EntityID>
-						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<UniqueID type="key">561621393</UniqueID>
+						<EntityID type="key">{06F7262E-CECD-461F-B39F-3FC28E803C2B}</EntityID>
+						<ItemInfoDate type="key">2025-07-20 오후 7:49:16</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -404,9 +431,9 @@ Original file added from ..\..\Simulink\test.sdf [2025-07-16 11:12:41 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">347450563</UniqueID>
-						<EntityID type="key">{3311D7C4-5108-4AC5-A091-E243ED40D6E9}</EntityID>
-						<ItemInfoDate type="key">2025-07-16 오후 8:12:52</ItemInfoDate>
+						<UniqueID type="key">751240120</UniqueID>
+						<EntityID type="key">{793789CE-2672-4BD9-8A9B-9F679604840D}</EntityID>
+						<ItemInfoDate type="key">2025-07-20 오후 7:49:16</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
